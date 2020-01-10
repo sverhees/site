@@ -1,0 +1,11 @@
+
+name: "Samira Verhees"
+navbar:
+  title: "Samira Verhees"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Publications"
+      href: publications.html
+
+

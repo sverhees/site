@@ -21,7 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This website provides an overview of my research as a linguist.
 
-In 2019 I defended my PhD thesis on "Evidentiality as part of tense-aspect in East Caucasian languages" at NRU HSE in Moscow, and I [currently](https://www.hse.ru/en/staff/samiraverhees?_r=idm139719052197344) work as a research fellow of the [Linguistic Convergence Laboratory](https://ilcl.hse.ru/en/) at the same university. My background is in Slavic studies with a focus on Russian --- I switched to linguistic typology and languages of the Caucasus during my master's.
+In 2019 I defended my PhD thesis on "Evidentiality as part of tense-aspect in East Caucasian languages" at NRU HSE in Moscow, and I [currently](https://www.hse.ru/en/staff/samiraverhees?_r=idm139719052197344) work as a research fellow of the [Linguistic Convergence Laboratory](https://ilcl.hse.ru/en/) at the same university.
 
 My research interests are languages of the Caucasus, linguistic typology, language variation and change, evidentiality, deixis, gender agreement and verbal morphology. In my free time I'm interested in religion, mythology, folklore, and botany, among other things.
 

@@ -1,61 +1,79 @@
 ---
-title: "<br>"
-output: html_document
+title: "Introduction"
+output:
+  html_document:
+    fig_cap: yes
+    highlight: tango
+    smooth_scroll: no
+    theme: cosmo
+    toc: yes
+    toc_float: yes
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Introduction
+![*Mountain views from the Caucasus drawn by J.A. Güldenstädt (1787-1791)*.[^3]](images/berg.png)
 
-This website provides an overview of my research as a linguist. 
+[^3]: J.A. Güldenstädt's *Reisen durch Russland und im Caucasischen Gebürge* is available online at Russia's [State Public Historical Library](http://elib.shpl.ru/ru/nodes/26689-guldenstadt-j-a-reisen-durch-russland-und-im-caucasischen-geburge-st-petersburg-1787-1791), accessed on 10.01.2020.
 
-In 2019 I defended my PhD thesis on "Evidentiality as part of tense-aspect in East Caucasian languages" at NRU HSE in Moscow, and I [currently](https://www.hse.ru/en/staff/samiraverhees?_r=idm139719052197344) work as a research fellow of the [Linguistic Convergence Laboratory](https://ilcl.hse.ru/en/) at the same university. I started my career as a Slavist at the University of Amsterdam specializing in Russian, but switched to the Caucasus during my master's at Ghent University. I mostly work with languages of the East Caucasian family spoken in Dagestan, one of the autonomous republics of Russia's North Caucasus region. Many of these languages remain underdescribed and understudied, so fieldwork is a big part of my job.
+This website provides an overview of my research as a linguist.
 
-My research interests are: languages of the Caucasus, linguistic typology, language variation and change, evidentiality, deixis, gender agreement and verbal morphology. In my free time I'm interested in religion, mythology, folklore, and botany, among other things.
+In 2019 I defended my PhD thesis on "Evidentiality as part of tense-aspect in East Caucasian languages" at NRU HSE in Moscow, and I [currently](https://www.hse.ru/en/staff/samiraverhees?_r=idm139719052197344) work as a research fellow of the [Linguistic Convergence Laboratory](https://ilcl.hse.ru/en/) at the same university. My background is in Slavic studies with a focus on Russian --- I switched to linguistic typology and languages of the Caucasus during my master's.
 
-<br>
+My research interests are languages of the Caucasus, linguistic typology, language variation and change, evidentiality, deixis, gender agreement and verbal morphology. In my free time I'm interested in religion, mythology, folklore, and botany, among other things.
 
-### Current projects
-
-#### Botlikh documentation
-Botlikh is a small, unwritten language of the East Caucasian language family. It is evaluated by UNESCO as "definitely endangered".[^1] It is still passed on to children, but some families are shifting to Russian, which is the major L2 in the area.
-
-[^1]: According to UNESCO, via [Wikipedia](https://en.wikipedia.org/wiki/List_of_endangered_languages_in_Russia), accessed on 10.01.2020.
-
-I started working on Botlikh by chance in 2017, when I was asked to edit and supplement a draft grammar sketch by the renowned Caucasiologist Mikhail Alexeyev. This text <span style="color: #CC0066;">will appear</span> in the near future as a chapter in a new handbook on Caucasian languages.
-
-In 2019 I teamed up with Chiara Naccarato to investigate Botlikh's unique agreement system. (See our talks on this topic: 1, 2, ... ) We are also in the process of translating and annotating Botlikh texts recorded by our predecessors, and we plan to add new material to the corpus of texts.
-
-A curious fact about Botlikh is the existence of two Botlikh-Russian dictionaries, which were compiled independently of each other. George Moroz, Chiara Naccarato and I are currently studying these two resources to uncover different types of variation. (See some preliminary results we presented here.)
-
-#### Andi documentation (Zilo dialect)
-The Andi language is a neighbor of Botlikh. I am one of several people who have worked on various aspects of Andi grammar by studying the dialect of the village Zilo since 2016. A grammar sketch is currently <span style="color: #CC0066;">in preparation</span>, and we are working on transcribing and annotating a corpus of texts recorded during field trips.
-
-Andi is also a "definitely endangered" language.[^1]
-
-#### Variation in unwritten languages
-Variation among speakers is a known problem for any linguist doing fieldwork, whether their purpose is language documentation or investigation of a theoretical problem.
-
-During fieldwork in the village Zilo in 2019, George Moroz conducted an experiment to measure the variation rate of several features known to be variable in the local dialect of Andi. We then sent out a survey to researchers of East Caucasian languages about their preferences and habits for conducting fieldwork, to estimate the probability that an average researcher would catch the rate of variation measured. Some results are discussed here, and a paper is <span style="color: #CC0066;">in preparation.</span>
-
-### Past projects
-
-#### Evidentiality as part of tense-aspect in East Caucasian languages
-My PhD project dealt with the grammaticalization and areal distribution of evidentiality as part of the tense-aspect system in East Caucasian languages. You can find more information in the [dedicated repository](https://github.com/sverhees/dissertation_evidentiality).
-
-#### Loanwords in Dagestan
-The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates how patterns of multilingualism in Dagestan are reflected in lexical borrowings at the village level. I worked on this project from 2017--2019, collecting and annotating lexical data. The results are a [database](https://lingconlab.github.io/Dagloan_database/DL_database.html), several talks and posters, and two papers which are <span style="color: #CC0066;">in preparation</span>.
-
-### About my name
-My given name is Samira, but my first name on my passport is Jannigje Helena. This has to do with a silly Dutch custom of giving children multiple Christian names as their official first name, and then calling them something else in daily life. (Read more about it [here](https://dutchreview.com/featured/what-is-a-roepnaam-explained/).) Names for daily use will often be derived from a first name, or at least start with the same first letter, but not always.
-
-Contrary to a persistent myth, Samira is not my Caucasiologist pseudonym, but the name given to me by my parents. I always go by this name unless I am forced to do otherwise. So please call me Samira and consider Jannigje Helena my tax-form filling alter ego.
-
+This page was created with `RMarkdown` in RStudio [@rstudio].
 
 ---
 
 Updated: `r Sys.Date()` | Contact me at: jh.verhees@gmail.com
 
 ---
+
+<br>
+
+## Current projects
+
+### Botlikh documentation
+Botlikh is a small, unwritten language of the East Caucasian language family. I started working on this language by chance in 2017, when I was asked to edit and supplement a draft grammar sketch by the renowned Caucasiologist Mikhail Alexeyev. This text <span style="color: #CC0066;">will appear</span> in the near future as a chapter in a new handbook on Caucasian languages.
+
+In 2019 I teamed up with Chiara Naccarato to investigate Botlikh's unique agreement system. (See our talks on this topic: [1](https://github.com/sverhees/2019sle_ordinals), [2](https://github.com/sverhees/2019_Animacy-origin).) We are also in the process of translating and annotating Botlikh texts recorded by our predecessors, and plan to add new material to the corpus. Some general background on the language and our work (along with some alluring pictures) is given in [these slides](https://github.com/sverhees/2019_labseminar_botlikh/blob/master/201910_labseminar_Botlikh(slides).pdf).
+
+A curious fact about Botlikh is the existence of two Botlikh-Russian dictionaries, which were compiled independently of each other. George Moroz, Chiara Naccarato and I are currently studying these two resources to uncover different types of variation. (See some preliminary results we presented [here](https://github.com/sverhees/2019_Botlikh_dictionaries).)
+
+### Andi documentation (Zilo dialect)
+The Andi language is a neighbor of Botlikh. I am one of several people who have worked on various aspects of Andi grammar by studying the dialect of the village Zilo since 2016. A grammar sketch is currently <span style="color: #CC0066;">in preparation</span>, and we are working on transcribing and annotating a corpus of texts recorded during field trips.
+
+### Variation in unwritten languages
+Variation among speakers is a known problem for any linguist doing fieldwork, whether their purpose is language documentation or investigation of a theoretical problem.
+
+During fieldwork in the village Zilo in 2019, George Moroz conducted an experiment to measure the variation rate of several features known to be variable in the local dialect of Andi. We then sent out a survey to researchers of East Caucasian languages about their preferences and habits for conducting fieldwork, to estimate the probability that an average researcher would catch the rate of variation measured. Some results are discussed [here](https://github.com/agricolamz/2019.11.26_ConLab_Zilo_variation), and a paper is <span style="color: #CC0066;">in preparation.</span>
+
+<br>
+
+## Past projects
+
+### Evidentiality as part of tense-aspect in East Caucasian languages
+My PhD project dealt with the grammaticalization and areal distribution of evidentiality as part of the tense-aspect system in East Caucasian languages. You can find more information in the [dedicated repository](https://github.com/sverhees/dissertation_evidentiality).
+
+### Loanwords in Dagestan
+The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates how patterns of multilingualism in Dagestan are reflected in lexical borrowings at the village level. I worked on this project from 2017--2019, collecting and annotating lexical data. The results are a [database](https://lingconlab.github.io/Dagloan_database/DL_database.html), several talks and posters, and two papers which are <span style="color: #CC0066;">in preparation</span>.
+
+<br>
+
+## About my name
+
+My given name is Samira, but my first name on my passport is Jannigje Helena. This has to do with a silly Dutch custom of giving children multiple Christian names as their official first name, and then calling them something else in daily life. (Read more about this [here](https://dutchreview.com/featured/what-is-a-roepnaam-explained/).) Names for daily use will often be derived from a first name, or at least start with the same letter, but not always.
+
+Contrary to a persistent myth, Samira is not my Caucasiologist pseudonym, but the name given to me by my parents. I always go by this name unless I am forced to do otherwise. So please call me Samira and consider Jannigje Helena my tax-form filling alter ego.
+
+<br>
+
+![*A goat in Zilo, Dagestan. July 2019.*](images/goat.png)
+
+<br>
+
+## References

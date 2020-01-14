@@ -19,6 +19,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 [^3]: J.A. Güldenstädt's *Reisen durch Russland und im Caucasischen Gebürge* is available online at Russia's [State Public Historical Library](http://elib.shpl.ru/ru/nodes/26689-guldenstadt-j-a-reisen-durch-russland-und-im-caucasischen-geburge-st-petersburg-1787-1791), accessed on 10.01.2020.
 
+<br>
+
 This website provides an overview of my research as a linguist.
 
 In 2019 I defended my PhD thesis on "Evidentiality as part of tense-aspect in East Caucasian languages" at NRU HSE in Moscow, and I [currently](https://www.hse.ru/en/staff/samiraverhees?_r=idm139719052197344) work as a research fellow of the [Linguistic Convergence Laboratory](https://ilcl.hse.ru/en/) at the same university.
@@ -69,8 +71,6 @@ The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates h
 My given name is Samira, but my first name on my passport is Jannigje Helena. This has to do with a silly Dutch custom of giving children multiple Christian names as their official first name, and then calling them something else in daily life. (Read more about this [here](https://dutchreview.com/featured/what-is-a-roepnaam-explained/).) Names for daily use will often be derived from a first name, or at least start with the same letter, but not always.
 
 Contrary to a persistent myth, Samira is not my Caucasiologist pseudonym, but the name given to me by my parents. I always go by this name unless I am forced to do otherwise. So please call me Samira and consider Jannigje Helena my tax-form filling alter ego.
-
-<br>
 
 ![*A goat in Zilo, Dagestan. July 2019.*](images/goat.png)
 

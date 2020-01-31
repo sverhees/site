@@ -19,6 +19,8 @@ Some publications include a file link. Unfortunately, in most cases my draft was
 
 [^1]: In Russian my last name can be transcribed as Ферхеес (Ferxees), Ферхейс (Ferxejs) or Верхейс (Verxejs).
 
+<br>
+
 ### Papers and chapters
 
 * Alexeyev, Mikhail and Samira Verhees. <span style="color: #CC0066;">To appear.</span> 'Botlikh'. In *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
@@ -87,7 +89,7 @@ Some publications include a file link. Unfortunately, in most cases my draft was
 
 * Chechuro, Ilya, Michael Daniel, Nina Dobrushina and Samira Verhees. 2019. *Daghestanian loans database.* Linguistic Convergence Laboratory, HSE. [URL](https://lingconlab.github.io/Dagloan_database/DL_database.html) | [DOI](https://zenodo.org/record/2616530).
 
-* 'Demonstratives in Zilo Andi' (Handout, 2019) | [PDF](https://github.com/sverhees/site/blob/master/other/Zilo_demonstratives.pdf)
+* Verhees, Samira. 2019. 'Demonstratives in Zilo Andi' (Handout) | [PDF](https://github.com/sverhees/site/blob/master/other/Zilo_demonstratives.pdf)
 
 * Dataset of East Caucasian villages with coordinates and languages[^3] | [Repository](https://github.com/sverhees/master_villages)
 

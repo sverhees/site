@@ -1,0 +1,110 @@
+
+---
+title: "CV"
+output:
+  html_document:
+    fig_cap: yes
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Jannigje Helena (Samira) Verhees
+
+jh.verhees _at_ gmail
+
+---
+
+## Employment
+
+---
+
+### Current
+
+* **Research fellow** at Linguistic Convergence Laboratory at NRU HSE, Moscow | [Page](https://www.hse.ru/en/staff/samiraverhees)
+
+    2018 - Now 
+
+
+### Past
+
+* **Intern / Research assistant** at Linguistic Convergence Laboratory at NRU HSE, Moscow
+   
+    2017-2018 
+
+* **Intern / Research assistant** at Laboratory of the Languages of the Caucasus at NRU HSE, Moscow
+   
+    2016
+
+---
+
+## Education
+
+---
+
+### PhD
+
+
+* **Filologija i lingvistika: teorija jazyka / Philology and linguistics: theory of language** (2015--2019)
+
+    NRU HSE Moscow
+
+    Dissertation: 'Évidencial'nost' kak čast' vido-vremennoj sistemy v naxsko-dagestanskix jazykax' (*in Russian*) / 'Evidentiality as part of tense-aspect in East Caucasian languages' | [Text](https://www.hse.ru/sci/diss/300367563) and  [data](https://github.com/sverhees/dissertation_evidentiality)
+
+    Supervisor: Michael Daniel
+
+<br>
+
+### Master
+
+* **Advanced studies in linguistics: linguistics in a comparative perspective** (2014--2015)
+
+    Ghent University
+
+    Thesis: 'Evidentiality in the Avar-Andic languages'
+
+    Supervisor: Leonid Kulikov
+
+<br>
+
+* **Taal -en regiostudies: slavistiek (richting Russisch) / Language and area studies: Slavic studies (Russian)** (2013--2014)
+
+    KU Leuven
+
+    Thesis: '"Je zult het niet geloven, maar een bril is geen ruimtepak" - Humor in spontane coversatie in het Russisch  (*in Dutch*) / <br> '"You won't believe this, but glasses are not a space suit" - Humor in spontaneous conversation in Russian'
+
+    Supervisor: Tatjana Soldatjenkova, Kurt Feyaerts
+
+<br>
+
+### Bachelor
+
+* **Slavische talen en culturen (Russisch) / Slavic languages and cultures (Russian)** (2010--2013)
+
+    University of Amsterdam
+
+    Thesis: Japanse haiku poëzie in het Russisch (*in Dutch*) / Japanese haiku poetry in Russian
+
+    Supervisor: Alla Peeters-Podgaevskaja
+
+<br>
+
+### Other
+
+* **Summer School** on areal linguistics and languages of Russia (September 2018)
+
+    NRU HSE Moscow
+
+
+* **LOT Winter School** on computational and statistical methods (January 2018)
+
+    VU Amsterdam
+
+
+* **Japanstudies** (Propedeuse) (2012--2013)
+
+    Leiden University
+

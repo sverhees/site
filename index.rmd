@@ -31,7 +31,7 @@ This page was created with `RMarkdown` in RStudio [@rstudio].
 
 ---
 
-Updated: `r Sys.Date()` | Contact me at: jh.verhees@gmail.com
+Updated: `r Sys.Date()` | jh.verhees _at_ gmail
 
 ---
 

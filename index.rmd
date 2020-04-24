@@ -9,7 +9,9 @@ output:
     toc: yes
     toc_float: yes
 bibliography: bibliography.bib
+css: style.css
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

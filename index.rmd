@@ -31,11 +31,6 @@ My research interests are languages of the Caucasus, linguistic typology, langua
 
 This page was created with `RMarkdown` in RStudio [@rstudio].
 
----
-
-Updated: `r Sys.Date()` | jh.verhees _at_ gmail
-
----
 
 <br>
 
@@ -54,7 +49,10 @@ The Andi language is a neighbor of Botlikh. I am one of several people who have 
 ### Variation in unwritten languages
 Variation among speakers is a known problem for any linguist doing fieldwork, whether their purpose is language documentation or investigation of a theoretical problem.
 
-During fieldwork in the village Zilo in 2019, George Moroz conducted an experiment to measure the variation rate of several features known to be variable in the local dialect of Andi. We then sent out a survey to researchers of East Caucasian languages about their preferences and habits for conducting fieldwork, to estimate the probability that an average researcher would catch the rate of variation measured. Some results are discussed [here](https://github.com/agricolamz/2019.11.26_ConLab_Zilo_variation), and a paper is <span style="color: #CC0066;">in preparation.</span>
+During fieldwork in the village Zilo in 2019, George Moroz conducted an experiment to measure the variation rate of several features known to be variable in the local dialect of Andi. We then sent out a survey to researchers of East Caucasian languages about their preferences and habits for conducting fieldwork, to estimate the probability that an average researcher would catch the rate of variation measured. Some results are discussed [here](https://github.com/agricolamz/2019.11.26_ConLab_Zilo_variation) and [here](https://github.com/agricolamz/2020.04.24_RSUH_Zilo_variation), and a paper is <span style="color: #CC0066;">in preparation.</span>
+
+### Typological Atlas of Daghestan
+The project [Typological Atlas of Daghestan](https://ilcl.hse.ru/en/projects) by Michael Daniel, George Moroz, and Konstantin Filatov is a tool to visualize information about linguistic structures characteristic of Dagestan. The Atlas consists of datasets with information about particular features. Each year, a different group of students of the School of Linguistics at NRU HSE collects new datasets for the Atlas as part of a workshop. Currently, Chiara Naccarato and I are supervising this workshop.
 
 <br>
 
@@ -64,7 +62,7 @@ During fieldwork in the village Zilo in 2019, George Moroz conducted an experime
 My PhD project dealt with the grammaticalization and areal distribution of evidentiality as part of the tense-aspect system in East Caucasian languages. You can find more information in the [dedicated repository](https://github.com/sverhees/dissertation_evidentiality).
 
 ### Loanwords in Dagestan
-The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates how patterns of multilingualism in Dagestan are reflected in lexical borrowings at the village level. I worked on this project from 2017--2019, collecting and annotating lexical data. The results are a [database](https://lingconlab.github.io/Dagloan_database/DL_database.html), several talks and posters, and two papers which are <span style="color: #CC0066;">in preparation</span>.
+The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates how patterns of multilingualism in Dagestan are reflected in lexical borrowings at the village level. I worked on this project with Michael Daniel, Ilya Chechuro and Nina Dobrushina from 2017--2019, collecting and annotating lexical data. The results are a [database](https://lingconlab.github.io/Dagloan_database/DL_database.html), several talks and posters, and two papers which are <span style="color: #CC0066;">in preparation</span>.
 
 <br>
 

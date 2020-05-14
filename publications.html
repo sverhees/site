@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -1346,7 +1346,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -1495,6 +1494,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -1507,48 +1507,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -1562,6 +1523,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -1667,7 +1634,7 @@ div.tocify {
 
 
 <p>Some publications include a file link. Unfortunately, in most cases my draft was heavily revised after review, and publishers prohibit publicly sharing the end result. Papers and chapters are sorted first by alphabet (based on authors’ surnames) and second by year in descending order.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> Talks are ordered chronologically.</p>
-<p>Updated: 2020-04-24</p>
+<p>Updated: 2020-05-14</p>
 <p><br></p>
 <div id="papers-and-chapters" class="section level3">
 <h3>Papers and chapters</h3>
@@ -1748,7 +1715,7 @@ div.tocify {
 <ul>
 <li><p>Chechuro, Ilya, Michael Daniel, Nina Dobrushina and Samira Verhees. 2019. <em>Daghestanian loans database.</em> Linguistic Convergence Laboratory, HSE. <a href="https://lingconlab.github.io/Dagloan_database/DL_database.html">URL</a> | <a href="https://zenodo.org/record/2616530">DOI</a>.</p></li>
 <li><p>Verhees, Samira. 2019. ‘Demonstratives in Zilo Andi’ (Handout) | <a href="https://github.com/sverhees/site/blob/master/other/Zilo_demonstratives.pdf">PDF</a></p></li>
-<li><p>Dataset of East Caucasian villages with coordinates and languages<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> | <a href="https://github.com/sverhees/master_villages">Repository</a></p></li>
+<li><p>Moroz, George and Samira Verhees. 2020. <em>East Caucasian villagest dataset v1.0</em>.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> Moscow: International Convergence Laboratory NRU HSE. <a href="https://github.com/sverhees/master_villages">Repository</a> | <a href="10.5281/zenodo.3824151">DOI</a></p></li>
 </ul>
 </div>
 <div class="footnotes">
@@ -1778,6 +1745,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

@@ -59,7 +59,7 @@ The project [Typological Atlas of Daghestan](https://ilcl.hse.ru/en/projects) by
 ## Past projects
 
 ### Evidentiality as part of tense-aspect in East Caucasian languages
-My PhD project dealt with the grammaticalization and areal distribution of evidentiality as part of the tense-aspect system in East Caucasian languages. You can find more information in the [dedicated repository](https://github.com/sverhees/dissertation_evidentiality).
+My PhD project dealt with the grammaticalization and areal distribution of evidentiality as part of the tense-aspect system in East Caucasian languages. You can find more information in the [dedicated repository](https://github.com/sverhees/dissertation_evidentiality/home.html).
 
 ### Loanwords in Dagestan
 The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates how patterns of multilingualism in Dagestan are reflected in lexical borrowings at the village level. I worked on this project with Michael Daniel, Ilya Chechuro and Nina Dobrushina from 2017--2019, collecting and annotating lexical data. The results are a [database](https://lingconlab.github.io/Dagloan_database/DL_database.html), several talks and posters, and two papers which are <span style="color: #CC0066;">in preparation</span>.

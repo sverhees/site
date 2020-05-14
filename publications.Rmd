@@ -111,6 +111,6 @@ Updated: `r Sys.Date()`
 
 * Verhees, Samira. 2019. 'Demonstratives in Zilo Andi' (Handout) | [PDF](https://github.com/sverhees/site/blob/master/other/Zilo_demonstratives.pdf)
 
-* Dataset of East Caucasian villages with coordinates and languages[^3] | [Repository](https://github.com/sverhees/master_villages)
+* Moroz, George and Samira Verhees. 2020. *East Caucasian villagest dataset v1.0*.[^3] Moscow: International Convergence Laboratory NRU HSE. [Repository](https://github.com/sverhees/master_villages) | [DOI](10.5281/zenodo.3824151)
 
 [^3]: This resource was created by George Moroz and students of the School of Linguistics at HSE Moscow. I simply maintain the repository for the moment.

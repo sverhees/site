@@ -16,7 +16,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Some publications include a file link. Unfortunately, in most cases my draft was heavily revised after review, and publishers prohibit publicly sharing the end result. Papers and chapters are sorted first by alphabet (based on authors' surnames) and second by year in descending order.[^1] Talks are ordered chronologically.
+Some publications include a file link. Unfortunately, in most cases my draft was heavily revised after review, and publishers prohibit publicly sharing the end result. Feel free to send me an email in case you cannot find a particular file here. Papers and chapters are sorted first by alphabet (based on authors' surnames) and second by year in descending order.[^1] Talks are ordered chronologically.
 
 Updated: `r Sys.Date()`
 
@@ -26,27 +26,28 @@ Updated: `r Sys.Date()`
 
 ### Papers and chapters
 
-* Alexeyev, Mikhail and Samira Verhees. <span style="color: #CC0066;">To appear.</span> 'Botlikh'. In *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
+* Alexeyev, Mikhail and Samira Verhees. <span style="color: #CC0066;">To appear.</span> 'Botlikh'. In Yury Koryakov and Timur Maisak (eds.) *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
 
 * Daniel, Michael, Nina Dobrushina, Polina Kazakova, Ilya Schurov, Vasilisa Zhigulskaya, Alexei Vinyar, Daria Ignatenko, Ekaterina Makhlina, Ruprecht von Waldenfels, Alexandra Ter-Avanesova, Ekaterina Gerasimenko, Maria Tsfasman, Samira Verhees, Sergey Say and Maria Ovsjannikova. 2019. 'Dialect loss in the Russian North: modeling change across variables' *Language Variation and Change*. [DOI](https://doi.org/10.1017/S0954394519000243)
 
-* Ferxees, Samira. 2019. *Évidencial'nost' kak čast' vido-vremmennoj systemy naxsko-dagestanskix jazykov [Evidentiality as part of tense-aspect in East Caucasian languages]*. NRU HSE, Moscow: Dissertation. [Repository](https://github.com/sverhees/dissertation_evidentiality)
-* Ferxees, Samira. 2018. 'K proisxoždeniju évidencial'nosti v naxsko-dagestanskix jazykax: strukturnye i areal'nye perspektivy' [Towards the origin of evidentiality in Nakh-Daghestanian languages: structural and areal perspectives]. *Vestnik PSTGU Serija 3: Filologija*. 2018(57), 110--123. [DOI](http://doi.org/10.15382/sturIII201857.110-123) | [PDF](http://periodical.pstgu.ru/en/pdf/article/6766)
-* Ferxees, Samira. 2017. 'Évidencial'nost' i perfekt v rutul'skom jazyke (na materiale govora s. Kina) [Evidentiality and the perfect in Rutul (based on the dialect of the village Kina)]'. In Marina Fedina (ed.) *Élektronnaja pis'mennost' narodov RF: opyt, problemy i perspektivy. Sbornik materialov naučnoj konferencii, 16--17 marta 2017g., Syktyvkar*. Syktyvkar: KRAGSiU, 228--235. [PDF](https://github.com/sverhees/site/blob/master/papers/Rutul_perfect_paper.pdf)
 
-* Kaye, Steven, Aleksandra Martynova, George Moroz, Neige Rochant, Samira Verhees and Aigul Zakirova. <span style="color: #CC0066;">To appear</span>. 'Andi (Zilo)'. In *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
+* Kaye, Steven, Aleksandra Martynova, George Moroz, Neige Rochant, Samira Verhees and Aigul Zakirova. <span style="color: #CC0066;">To appear</span>. 'Andi (Zilo)'. In Yury Koryakov and Timur Maisak (eds.) *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
 
-* Moroz, George and Samira Verhees. 2019. 'Variability in noun classes assignment in Zilo Andi: experimental data'. *Iran and the Caucasus* Vol. 23(3), 268--282. [DOI](https://doi.org/10.1163/1573384X-20190306)
+* Moroz, George and Samira Verhees. 2019. 'Variability in noun classes assignment in Zilo Andi: experimental data'. *Iran and the Caucasus.* Vol. 23(3), 268--282. [DOI](https://doi.org/10.1163/1573384X-20190306)
 
-* Naccarato, Chiara and Samira Verhees. <span style="color: #CC0066;">To appear</span>. 'Godoberi'. In *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
+* Naccarato, Chiara, George Moroz and Samira Verhees. <span style="color: #CC0066;">To appear</span>. 'Godoberi'. In Yury Koryakov and Timur Maisak (eds.) *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
 
 * Peeters-Podgaevskaja, Alla and Samira Ferxejs. 2014. 'V mire étom vsë --- kak kolence bambuka: japonskoe xajku v sovremennoj russkoj poézii [Everything in this world is like a bamboo knuckle: Japanese haiku in contemporary Russian poetry]'. In Wim Honselaar, Jenny Stelleman and Willem Weststeijn (eds.) *To the point: Festschrift for Eric de Haard on the occasion of his 65th birthday*. Amsterdam: Pegasus, 275--297.  [PDF](https://pure.uva.nl/ws/files/2071110/164846_Xajku_in_Russische_poezie.pdf)
 
-* Verhees, Samira. <span style="color: #CC0066;">To appear</span>. 'Evidentiality in the Rikvani dialect of Andi'. *Iran and the Caucasus*.
+* Verhees, Samira. <span style="color: #CC0066;">To appear</span>. 'Evidentiality in the Rikvani dialect of Andi'. *Iran and the Caucasus.* Vol 24(4), 309-324.
 * Verhees, Samira. 2019. 'Defining evidentiality'. *Voprosy jazykoznanija* 2019(6), 113--133. [DOI](https://ras.jes.su/vopjaz/s0373658x0007549-2-1) | [PDF](https://github.com/sverhees/site/blob/master/papers/Defining_evidentiality_draft_version.pdf)
 * Verhees, Samira. 2019. 'General converbs in Andi'. *Studies in language* Vol. 43(1), 195--230. [DOI](https://doi.org/10.1075/sl.18026.ver)
 * Verhees, Samira. 2018. 'Chapter 12. The perfect in Avar and Andi: Cross-linguistic variation among two closely-related East Caucasian languages'. In Dalila Ayoun, Agnès Celle and Laure Lansari (eds.) *Tense, Aspect, Modality and Evidentiality: Cross-linguistic perspectives.* Amsterdam : John Benjamins, 261--280. [DOI](https://doi.org/10.1075/slcs.197.12ver)
 * Verhees, Samira. 2018. '[Review] S. E. Murray. The semantics of evidentials. (Oxford Studies in Semantics and Pragmatics, 9.) Oxford: Oxford University Press, 2017. 192 p. ISBN 978-0-19- 968157-0.' *Voprosy Jazykoznanija* 2018(3), 154--160. [DOI](https://www.libnauka.ru/item.php?doi=10.7868/S0373658X1803008X)
+
+* Ферхеес, Самира. 2019. *Эвиденциальность как часть видо-временной системы в нахско-дагестанских языках [Evidentiality as part of tense-aspect in East Caucasian languages]*. НИУ ВШЭ Москва: Диссертация. [Repository](https://github.com/sverhees/dissertation_evidentiality)
+* Ферхеес, Самира. 2018. 'К происхождению эвиденциальности в нахско-дагестанских языках: структурные и ареальные перспективы' [Towards the origin of evidentiality in Nakh-Daghestanian languages: structural and areal perspectives]. *Вестник ПСТГУ Серия 3: Филология*. 2018(57), 110--123. [DOI](http://doi.org/10.15382/sturIII201857.110-123) | [PDF](http://periodical.pstgu.ru/en/pdf/article/6766)
+* Ферхеес, Самира. 2017. 'Эвиденциальность и перфект в рутульском языке (на материале говора с. Кина) [Evidentiality and the perfect in Rutul (based on the dialect of the village Kina)]'. Marina Fedina (ред.) *Электронная письменность народов РФ: опыт, проблемы и перспективы. Сборник материалов научной конференции, 16--17 марта 2017г., Сыктывкар*. Syktyvkar: KRAGSiU, 228--235. [PDF](https://github.com/sverhees/site/blob/master/papers/Rutul_perfect_paper.pdf)
 
 <br>
 
@@ -62,7 +63,7 @@ Updated: `r Sys.Date()`
 
 * 'Towards a tentative origin of animacy markers in Botlikh' with Chiara Naccarato at *Caucasian languages: typology and diachrony*, 23--24.10.2019 Institute of Linguistics RAS, Moscow | [PDF and data](https://github.com/sverhees/2019_Animacy-origin)
 
-* 'Variation in two dictionaries of Botlikh' with Chiara Naccarato and George Moroz at *Dokumentirovanie jazykov i dialektov korennyx maločislennyx narodov Rossii*, 14--16.10.2019 Institute of Linguistics RAS, St. Petersburg | [PDF](https://github.com/sverhees/site/blob/master/talks/2019_Botlikh_dictionaries.pdf)
+* 'Variation in two dictionaries of Botlikh' with Chiara Naccarato and George Moroz at *Документирование языков и диалектов коренных малочисленных народов России*, 14--16.10.2019 Institute of Linguistics RAS, St. Petersburg | [PDF](https://github.com/sverhees/site/blob/master/talks/2019_Botlikh_dictionaries.pdf)
 
 * 'Ordinal numerals and animacy in Botlikh' (with Chiara Naccarato)[^2] at *SLE*, 21--24.08.2019, Leipzig University | [PDF and data](https://github.com/sverhees/2019sle_ordinals)
 
@@ -87,7 +88,7 @@ Updated: `r Sys.Date()`
 
 * 'The (auxiliary) verb *b-iʁidu* in Andi' with Neige Rochant, *Historical linguistics of the Caucasus*, 12--14.04.2017, Paris | [PDF](https://www.academia.edu/33113058/The_auxiliary_verb_b-i%CA%81idu_in_Andi_Historical_Linguistics_of_the_Caucasus_-_April_12-14_2017_)
 
-* 'Évidencial'nost' i perfekt v rutul'skom jazyke (na materiale govora s. Kina) [Evidentiality and the perfect in Rutul (based on the dialect of the village Kina)]' at *Élektronnaja pis'mennost' narodov RF: opyt, problemy i perspektivy*, 16--17.03.2017, Syktyvkar
+* 'Эвиденциальность и перфект в рутульском языке (на материале говора с. Кина)' [Evidentiality and the perfect in Rutul (based on the dialect of the village Kina)]' at *Élektronnaja pis'mennost' narodov RF: opyt, problemy i perspektivy*, 16--17.03.2017, Syktyvkar
 
 #### 2016
 
@@ -97,7 +98,7 @@ Updated: `r Sys.Date()`
 
 ### Posters
 
-* 'Суффиксы направленности -ку и -ру в ботлихском языке' (с С.Х. Задыкян и К. Наккарато) *Малые языки в большой лингвистике*, МГУ имени Ломоносова 2020 | [PDF](https://github.com/sverhees/site/tree/master/other/MYABL2020_Elative_cases_Botlikh.pdf)
+* 'Суффиксы направленности -ку и -ру в ботлихском языке' (с С.Х. Задыкян и К. Наккарато) [Directional suffixes -ku and -ru in Botlikh (w. S. Zadykian and C. Naccarato)]. *Малые языки в большой лингвистике*, МГУ имени Ломоносова 2020 | [PDF](https://github.com/sverhees/site/tree/master/other/MYABL2020_Elative_cases_Botlikh.pdf)
 
 * 'Lexical influence of Avar on minority languages of Daghestan' *Summer School areal linguistics and languages of Russia*, HSE Moscow 2018 | [PDF and data](https://github.com/sverhees/2018_Areal_AvarInfluence)
 
@@ -107,10 +108,9 @@ Updated: `r Sys.Date()`
 
 ### Other
 
+* Moroz, George and Samira Verhees. 2020. *East Caucasian villagest dataset v1.0*. Moscow: International Convergence Laboratory NRU HSE. [Repository](https://github.com/sverhees/master_villages) | [DOI](10.5281/zenodo.3824151)
+
 * Chechuro, Ilya, Michael Daniel, Nina Dobrushina and Samira Verhees. 2019. *Daghestanian loans database.* Linguistic Convergence Laboratory, HSE. [URL](https://lingconlab.github.io/Dagloan_database/DL_database.html) | [DOI](https://zenodo.org/record/2616530).
 
 * Verhees, Samira. 2019. 'Demonstratives in Zilo Andi' (Handout) | [PDF](https://github.com/sverhees/site/blob/master/other/Zilo_demonstratives.pdf)
 
-* Moroz, George and Samira Verhees. 2020. *East Caucasian villagest dataset v1.0*.[^3] Moscow: International Convergence Laboratory NRU HSE. [Repository](https://github.com/sverhees/master_villages) | [DOI](10.5281/zenodo.3824151)
-
-[^3]: This resource was created by George Moroz and students of the School of Linguistics at HSE Moscow. I simply maintain the repository for the moment.

@@ -56,11 +56,11 @@ jh.verhees _at_ gmail
 ### PhD
 
 
-* **Filologija i lingvistika: teorija jazyka / Philology and linguistics: theory of language** (2015--2019)
+* **Филолгия и лингвистика: теория языка / Philology and linguistics: theory of language** (2015--2019)
 
     NRU HSE Moscow
 
-    Dissertation: 'Évidencial'nost' kak čast' vido-vremennoj sistemy v naxsko-dagestanskix jazykax' (*in Russian*) / 'Evidentiality as part of tense-aspect in East Caucasian languages' | [Text](https://www.hse.ru/sci/diss/300367563) and  [data](https://github.com/sverhees/dissertation_evidentiality)
+    Dissertation: 'Эвиденциальность как часть видо-временной системы в нахско-дагестанских языках' (*in Russian*) / 'Evidentiality as part of tense-aspect in East Caucasian languages' | [Text](https://www.hse.ru/sci/diss/300367563) and  [data](https://github.com/sverhees/dissertation_evidentiality)
 
     Supervisor: Michael Daniel
 

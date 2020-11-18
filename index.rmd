@@ -27,7 +27,7 @@ This website provides an overview of my research as a linguist.
 
 In 2019 I defended my PhD thesis on "Evidentiality as part of tense-aspect in East Caucasian languages" at NRU HSE in Moscow, and I [currently](https://www.hse.ru/en/staff/samiraverhees?_r=idm139719052197344) work as a research fellow of the [Linguistic Convergence Laboratory](https://ilcl.hse.ru/en/) at the same university.
 
-My research interests are languages of the Caucasus, linguistic typology, language variation and change, evidentiality, deixis, gender agreement and verbal morphology. In my free time I'm interested in religion, mythology, folklore, and botany, among other things.
+My research interests are languages of the Caucasus, linguistic typology, language variation and change, evidentiality, deixis, gender agreement and verbal morphology. In my free time I'm interested in religion, folklore, and botany, among other things.
 
 This page was created with `RMarkdown` in RStudio [@rstudio].
 
@@ -37,11 +37,14 @@ This page was created with `RMarkdown` in RStudio [@rstudio].
 ## Current projects
 
 ### Botlikh documentation
-Botlikh is a small, unwritten language of the East Caucasian language family. I started working on this language by chance in 2017, when I was asked to edit and supplement a draft grammar sketch by the renowned Caucasiologist Mikhail Alexeyev. This text <span style="color: #CC0066;">will appear</span> in the near future as a chapter in a new handbook on Caucasian languages.
+Botlikh is a small, unwritten language of the East Caucasian language family (Andic branch). I started working on this language by chance in 2017, when I was asked to edit and supplement a draft grammar sketch by the renowned Caucasiologist Mikhail Alexeyev. This text <span style="color: #CC0066;">will appear</span> in the near future as a chapter in a new handbook on Caucasian languages.
 
 In 2019 I teamed up with Chiara Naccarato to investigate Botlikh's unique agreement system. (See our talks on this topic: [1](https://github.com/sverhees/2019sle_ordinals), [2](https://github.com/sverhees/2019_Animacy-origin).) We are also in the process of translating and annotating Botlikh texts recorded by our predecessors, and plan to add new material to the corpus. Some general background on the language and our work (along with some alluring pictures) is given in [these slides](https://github.com/sverhees/2019_labseminar_botlikh/blob/master/201910_labseminar_Botlikh(slides).pdf).
 
 A curious fact about Botlikh is the existence of two Botlikh-Russian dictionaries, which were compiled independently of each other. George Moroz, Chiara Naccarato and I are currently studying these two resources to uncover different types of variation. (See some preliminary results we presented [here](https://github.com/sverhees/2019_Botlikh_dictionaries).)
+
+I also manage an [Instagram](https://www.instagram.com/botlikh_rasha/) account about the Botlikh language, and [here](https://sverhees.github.io/botlikh_khabar/) you can read some texts from the corpus in Botlikh and Russian.
+
 
 ### Andi documentation (Zilo dialect)
 The Andi language is a neighbor of Botlikh. I am one of several people who have worked on various aspects of Andi grammar by studying the dialect of the village Zilo since 2016. A grammar sketch is currently <span style="color: #CC0066;">in preparation</span>, and we are working on transcribing and annotating a corpus of texts recorded during field trips.
@@ -52,7 +55,7 @@ Variation among speakers is a known problem for any linguist doing fieldwork, wh
 During fieldwork in the village Zilo in 2019, George Moroz conducted an experiment to measure the variation rate of several features known to be variable in the local dialect of Andi. We then sent out a survey to researchers of East Caucasian languages about their preferences and habits for conducting fieldwork, to estimate the probability that an average researcher would catch the rate of variation measured. Some results are discussed [here](https://github.com/agricolamz/2019.11.26_ConLab_Zilo_variation) and [here](https://github.com/agricolamz/2020.04.24_RSUH_Zilo_variation), and a paper is <span style="color: #CC0066;">in preparation.</span>
 
 ### Typological Atlas of Daghestan
-The project [Typological Atlas of Daghestan](https://ilcl.hse.ru/en/projects) by Michael Daniel, George Moroz, and Konstantin Filatov is a tool to visualize information about linguistic structures characteristic of Dagestan. The Atlas consists of datasets with information about particular features. Each year, a different group of students of the School of Linguistics at NRU HSE collects new datasets for the Atlas as part of a workshop. Currently, Chiara Naccarato and I are supervising this workshop.
+The project [Typological Atlas of Daghestan](https://ilcl.hse.ru/en/projects) by Michael Daniel, George Moroz, and Konstantin Filatov is a tool to visualize information about linguistic structures characteristic of Dagestan. The Atlas consists of datasets with information about particular features. Each year, a different group of students of the School of Linguistics at NRU HSE collects new datasets for the Atlas as part of a workshop. Chiara Naccarato and I are currently supervising the workshop.
 
 <br>
 
@@ -62,7 +65,7 @@ The project [Typological Atlas of Daghestan](https://ilcl.hse.ru/en/projects) by
 My PhD project dealt with the grammaticalization and areal distribution of evidentiality as part of the tense-aspect system in East Caucasian languages. You can find more information in the [dedicated repository](https://github.com/sverhees/dissertation_evidentiality/home.html).
 
 ### Loanwords in Dagestan
-The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates how patterns of multilingualism in Dagestan are reflected in lexical borrowings at the village level. I worked on this project with Michael Daniel, Ilya Chechuro and Nina Dobrushina from 2017--2019, collecting and annotating lexical data. The results are a [database](https://lingconlab.github.io/Dagloan_database/DL_database.html), several talks and posters, and two papers which are <span style="color: #CC0066;">in preparation</span>.
+The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates how patterns of multilingualism in Dagestan are reflected in lexical borrowings at the village level. I worked on this project with Michael Daniel, Ilya Chechuro and Nina Dobrushina from 2017--2019, collecting and annotating lexical data. The results are a [database](https://lingconlab.github.io/Dagloan_database/DL_database.html), several talks and posters, and two papers which are <span style="color: #CC0066;">submitted / to appear</span>.
 
 <br>
 
@@ -71,6 +74,8 @@ The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates h
 My given name is Samira, but my first name on my passport is Jannigje Helena. This has to do with a silly Dutch custom of giving children multiple Christian names as their official first name, and then calling them something else in daily life. (Read more about this [here](https://dutchreview.com/featured/what-is-a-roepnaam-explained/).) Names for daily use will often be derived from a first name, or at least start with the same letter, but not always.
 
 Contrary to a persistent myth, Samira is not my Caucasiologist pseudonym, but the name given to me by my parents. I always go by this name unless I am forced to do otherwise. So please call me Samira and consider Jannigje Helena my tax-form filling alter ego.
+
+<br>
 
 ![*A goat in Zilo, Dagestan. July 2019.*](images/goat.png)
 

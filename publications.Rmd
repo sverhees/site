@@ -62,7 +62,7 @@ Updated: `r Sys.Date()`
 
 * 'The encoding of evidentiality in East Caucasian: different types of marking and areal distribution' at [Online course on East Caucasian languages](https://ilcl.hse.ru/en/east_caucasian/), 18.11.2020 Linguistic Convergence Laboratory, HSE University Moscow | [PDF and video](https://ilcl.hse.ru/en/east_caucasian/schedule)
 
-* 'Reported speech in Botlikh' at *Seventeenth conference on typology and grammar for young scholars* 19--21.11.2020 Institute of Linguistic Studies RAS, St. Petersburg | [PDF and data](https://github.com/sverhees/mt2020_rsbotlikh)
+* 'Reported speech in Botlikh' at *Seventeenth conference on typology and grammar for young scholars* 19--21.11.2020 Institute of Linguistic Studies RAS, St. Petersburg | [PDF](https://github.com/sverhees/site/blob/master/talks/2020MT_RS_in_Botlikh.pdf)
 
 * 'Catching variation during fieldwork on Daghestanian languages' with George Moroz at *Dialectology and linguistic geography*, 24.04.2020 RSUH, Moscow | [PDF and data](https://github.com/agricolamz/2020.04.24_RSUH_Zilo_variation)
 

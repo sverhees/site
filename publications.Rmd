@@ -117,6 +117,8 @@ Updated: `r Sys.Date()`
 
 ### Other
 
+* Naccarato, Chiara and Samira Verhees. 2021. 'Animacy in Botlikh' (Handout) | [PDF]()
+
 * Moroz, George and Samira Verhees. 2020. *East Caucasian villagest dataset v1.0*. Moscow: International Convergence Laboratory NRU HSE. [Repository](https://github.com/sverhees/master_villages) | [DOI](10.5281/zenodo.3824151)
 
 * Chechuro, Ilya, Michael Daniel, Nina Dobrushina and Samira Verhees. 2019. *Daghestanian loans database.* Linguistic Convergence Laboratory, HSE. [URL](https://lingconlab.github.io/Dagloan_database/DL_database.html) | [DOI](https://zenodo.org/record/2616530).

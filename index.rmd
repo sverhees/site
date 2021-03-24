@@ -39,15 +39,15 @@ This page was created with `RMarkdown` in RStudio [@rstudio].
 ### Botlikh documentation
 Botlikh is a small, unwritten language of the East Caucasian language family (Andic branch). I started working on this language by chance in 2017, when I was asked to edit and supplement a draft grammar sketch by the renowned Caucasiologist Mikhail Alexeyev. This text <span style="color: #CC0066;">will appear</span> in the near future as a chapter in a new handbook on Caucasian languages.
 
-In 2019 I teamed up with Chiara Naccarato to investigate Botlikh's unique agreement system. (See our talks on this topic: [1](https://github.com/sverhees/2019sle_ordinals), [2](https://github.com/sverhees/2019_Animacy-origin).) We are also in the process of translating and annotating Botlikh texts recorded by our predecessors, and plan to add new material to the corpus. Some general background on the language and our work (along with some alluring pictures) is given in [these slides](https://github.com/sverhees/2019_labseminar_botlikh/blob/master/201910_labseminar_Botlikh(slides).pdf).
+In 2019 I teamed up with Chiara Naccarato to investigate Botlikh's unique agreement system (see our talks on this topic: [1](https://github.com/sverhees/2019sle_ordinals), [2](https://github.com/sverhees/2019_Animacy-origin), and a general overview [handout](https://github.com/sverhees/site/blob/master/other/Animacy_in_Botlikh.pdf)). We are also in the process of translating and annotating Botlikh texts recorded by our predecessors, and plan to add new material to the corpus. Some general background on the language and our work (along with some alluring pictures) is given in [these slides](https://github.com/sverhees/2019_labseminar_botlikh/blob/master/201910_labseminar_Botlikh(slides).pdf).
 
-A curious fact about Botlikh is the existence of two Botlikh-Russian dictionaries, which were compiled independently of each other. George Moroz, Chiara Naccarato and I are currently studying these two resources to uncover different types of variation. (See some preliminary results we presented [here](https://github.com/sverhees/2019_Botlikh_dictionaries).)
+A curious fact about Botlikh is the existence of two Botlikh-Russian dictionaries, which were compiled independently of each other. George Moroz, Chiara Naccarato and I are currently studying these two resources to uncover different types of variation (see some preliminary results we presented [here](https://github.com/sverhees/2019_Botlikh_dictionaries)).
 
-I also manage an [Instagram](https://www.instagram.com/botlikh_rasha/) account about the Botlikh language, and [here](https://sverhees.github.io/botlikh_khabar/) you can read some texts from the corpus in Botlikh and Russian.
+I also manage an [Instagram](https://www.instagram.com/botlikh_rasha/) account about the Botlikh language, and I published some texts from the corpus in Botlikh and Russian [here](https://sverhees.github.io/botlikh_khabar/).
 
 
 ### Andi documentation (Zilo dialect)
-The Andi language is a neighbor of Botlikh. I am one of several people who have worked on various aspects of Andi grammar by studying the dialect of the village Zilo since 2016. A grammar sketch is currently <span style="color: #CC0066;">in preparation</span>, and we are working on transcribing and annotating a corpus of texts recorded during field trips.
+The Andi language is a neighbor of Botlikh. I am one of several people who have worked on various aspects of Andi grammar by studying the dialect of the village Zilo since 2016. A grammar sketch is currently <span style="color: #CC0066;">in preparation</span>, and we are working on transcribing and annotating a corpus of texts that were recorded during field trips.
 
 ### Variation in unwritten languages
 Variation among speakers is a known problem for any linguist doing fieldwork, whether their purpose is language documentation or investigation of a theoretical problem.
@@ -55,7 +55,7 @@ Variation among speakers is a known problem for any linguist doing fieldwork, wh
 During fieldwork in the village Zilo in 2019, George Moroz conducted an experiment to measure the variation rate of several features known to be variable in the local dialect of Andi. We then sent out a survey to researchers of East Caucasian languages about their preferences and habits for conducting fieldwork, to estimate the probability that an average researcher would catch the rate of variation measured. Some results are discussed [here](https://github.com/agricolamz/2019.11.26_ConLab_Zilo_variation) and [here](https://github.com/agricolamz/2020.04.24_RSUH_Zilo_variation), and a paper is <span style="color: #CC0066;">in preparation.</span>
 
 ### Typological Atlas of Daghestan
-The project [Typological Atlas of Daghestan](https://ilcl.hse.ru/en/projects) by Michael Daniel, George Moroz, and Konstantin Filatov is a tool to visualize information about linguistic structures characteristic of Dagestan. The Atlas consists of datasets with information about particular features. Each year, a different group of students of the School of Linguistics at NRU HSE collects new datasets for the Atlas as part of a workshop. Chiara Naccarato and I are currently supervising the workshop.
+The project [Typological Atlas of Daghestan](https://ilcl.hse.ru/en/projects) is a tool to visualize information about linguistic structures characteristic of Dagestan. The Atlas consists of datasets with information about particular features. Each year, a different group of students of the School of Linguistics at NRU HSE collects new datasets for the Atlas as part of a workshop. Chiara Naccarato and I are currently supervising the workshop.
 
 <br>
 

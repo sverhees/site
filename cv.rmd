@@ -16,9 +16,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-<img style="float: right" src="images/atropa.png">
-
-
 Jannigje Helena (Samira) Verhees 
 
 jh.verhees _at_ gmail
@@ -44,8 +41,6 @@ jh.verhees _at_ gmail
 * **Intern / Research assistant** at Laboratory of the Languages of the Caucasus at NRU HSE, Moscow
    
     2016
-    
-<div style="text-align: right">Image: *Atropa Caucasica* [@galushko1980: 72] </div>
 
 ---
 
@@ -117,9 +112,3 @@ jh.verhees _at_ gmail
     Leiden University
     
 <br>
-
----
-
-### References
-
-

@@ -117,7 +117,7 @@ Updated: `r Sys.Date()`
 
 ### Other
 
-* Naccarato, Chiara and Samira Verhees. 2021. 'Animacy in Botlikh' (Handout) | [PDF]()
+* Naccarato, Chiara and Samira Verhees. 2021. 'Animacy in Botlikh' (Handout) | [PDF](https://github.com/sverhees/site/blob/master/other/Animacy_in_Botlikh.pdf)
 
 * Moroz, George and Samira Verhees. 2020. *East Caucasian villagest dataset v1.0*. Moscow: International Convergence Laboratory NRU HSE. [Repository](https://github.com/sverhees/master_villages) | [DOI](10.5281/zenodo.3824151)
 

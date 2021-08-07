@@ -28,17 +28,17 @@ jh.verhees _at_ gmail
 
 ### Current
 
-* **Research fellow** at Linguistic Convergence Laboratory at NRU HSE, Moscow | [Page](https://www.hse.ru/en/staff/samiraverhees)
+* **Research fellow** at Linguistic Convergence Laboratory at HSE University, Moscow | [Page](https://www.hse.ru/en/staff/samiraverhees)
 
     2018 - Now 
 
 ### Past
 
-* **Intern / Research assistant** at Linguistic Convergence Laboratory at NRU HSE, Moscow
+* **Intern / Research assistant** at Linguistic Convergence Laboratory at HSE University, Moscow
    
     2017-2018 
 
-* **Intern / Research assistant** at Laboratory of the Languages of the Caucasus at NRU HSE, Moscow
+* **Intern / Research assistant** at Laboratory of the Languages of the Caucasus at HSE University, Moscow
    
     2016
 
@@ -53,7 +53,7 @@ jh.verhees _at_ gmail
 
 * **Филолгия и лингвистика: теория языка / Philology and linguistics: theory of language** (2015--2019)
 
-    NRU HSE Moscow
+    HSE University Moscow
 
     Dissertation: 'Эвиденциальность как часть видо-временной системы в нахско-дагестанских языках' (*in Russian*) / 'Evidentiality as part of tense-aspect in East Caucasian languages' | [Text](https://www.hse.ru/sci/diss/300367563) and  [data](https://github.com/sverhees/dissertation_evidentiality)
 
@@ -99,7 +99,7 @@ jh.verhees _at_ gmail
 
 * **Summer School** on areal linguistics and languages of Russia (September 2018)
 
-    NRU HSE Moscow
+    HSE University Moscow
 
 
 * **LOT Winter School** on computational and statistical methods (January 2018)
@@ -112,3 +112,27 @@ jh.verhees _at_ gmail
     Leiden University
     
 <br>
+
+
+---
+
+## Field trips
+
+---
+
+
+* July 2015 -- **Arkhangelsk Oblast**, Russia. Village Pushkino: collecting and annotating Russian dialect data for the [Ustja River Basin Corpus](http://www.parasolcorpus.org/Pushkino/login.php).
+
+<br>
+
+#### Daghestan
+
+* July 2016 -- **Rutul district**: Kina (Rutul). Evidentiality, lexicon, and sociolinguistics for the [Atlas of Multilingualism in Dagestan](https://multidagestan.com); **Kaitag district**: Dzhavgat (Dargwa), Dzhibakhni (Dargwa). Sociolinguistics for the [Atlas of Multilingualism in Dagestan](https://multidagestan.com)
+* September 2016 -- **Makhachkala** (Rikvani dialect of Andi), **Botlikh district** Zilo (Andi). Evidentiality.
+* April 2017 -- **Botlikh district** Zilo (Andi). Evidentiality and tense.
+* July 2017 -- **Botlikh district** Rikvani, Muni, Zilo (Andi); Botlikh (Botlikh). Evidentiality.
+* 2018 -- **Agul district** Tpig, Khutkhul (Agul); **Kaitag district** Dzhavgat, Dzhibakhni (Dargwa); **Khiv district** Arkhit, Tsinit (Lezgian); Khiv, Khoredzh, Laka, Tsinit (Tabasaran); **Tabasaran district** Darvag, Yersi (Azerbaijani); Dyubek, Khapil', Tatil', Yagdyg (Tabasaran). Borrowed lexicon for the [Daghestanian Loans Database](http://lingconlab.ru/dagloans/).
+* 2019 --  **Botlikh district** Zilo (Andi). Demonstratives | [Handout](https://github.com/sverhees/site/blob/master/other/Zilo_demonstratives.pdf)
+* 2019 -- **Botlikh** (Botlikh): agreement with animacy.
+* 25--30 April 2021 -- **Botlikh district** Botlikh, Miarso (Botlikh). Negative copulas and demonstratives | [Report](https://github.com/sverhees/fieldtrip_spring2021/blob/main/negative_copulas_field_report.pdf)
+* 01--02 May 2021 -- **Tarumovsky district** Karabagly (Armenian). Exploratory visit | [Report](https://github.com/sverhees/site/blob/master/talks/202105_Karabagly/202105_Labseminar_Karabagly_V2.pdf)

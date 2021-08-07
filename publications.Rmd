@@ -28,12 +28,11 @@ Updated: `r Sys.Date()`
 
 * Alexeyev, Mikhail and Samira Verhees. <span style="color: #CC0066;">To appear.</span> 'Botlikh'. In Yury Koryakov and Timur Maisak (eds.) *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
 
-* Daniel, Michael, Ilya Chechuro, and Samira verhees. <span style="color: #CC0066;">To appear.</span> Small-scale multilingualism through the prism of lexical borrowing. <i>Accepted for publication in Journal of Bilingualism.</i> [Draft](https://www.academia.edu/44322050/Small_scale_multilingualism_through_the_prism_of_lexical_borrowing) 
+* Chechuro, Ilia, Michael Daniel, and Samira verhees. 2021. Small-scale multilingualism through the prism of lexical borrowing. *Journal of Bilingualism* ?, ?. [Draft](https://www.academia.edu/44322050/Small_scale_multilingualism_through_the_prism_of_lexical_borrowing) 
 
-* Daniel, Michael, Ilya Chechuro, Samira Verhees, and Nina Dobrushina. <span style="color: #CC0066;">Submitted.</span> Lingua francas as lexical donors: evidence from Daghestan. [Draft](https://www.academia.edu/44322048/Lingua_francas_as_lexical_donors_Evidence_from_Daghestan)
+* Daniel, Michael, Ilia Chechuro, Samira Verhees, and Nina Dobrushina. 2021. 'Lingua francas as lexical donors: evidence from Daghestan'. *Language* 97.3, ?. [Draft](https://www.academia.edu/44322048/Lingua_francas_as_lexical_donors_Evidence_from_Daghestan)
 
-* Daniel, Michael, Nina Dobrushina, Polina Kazakova, Ilya Schurov, Vasilisa Zhigulskaya, Alexei Vinyar, Daria Ignatenko, Ekaterina Makhlina, Ruprecht von Waldenfels, Alexandra Ter-Avanesova, Ekaterina Gerasimenko, Maria Tsfasman, Samira Verhees, Sergey Say and Maria Ovsjannikova. 2019. 'Dialect loss in the Russian North: modeling change across variables' *Language Variation and Change*. [DOI](https://doi.org/10.1017/S0954394519000243)
-
+* Daniel, Michael, Nina Dobrushina, Polina Kazakova, Ilya Schurov, Vasilisa Zhigulskaya, Alexei Vinyar, Daria Ignatenko, Ekaterina Makhlina, Ruprecht von Waldenfels, Alexandra Ter-Avanesova, Ekaterina Gerasimenko, Maria Tsfasman, Samira Verhees, Sergey Say and Maria Ovsjannikova. 2019. 'Dialect loss in the Russian North: modeling change across variables' *Language Variation and Change.* Vol. 31(3), 353--376. [DOI](https://doi.org/10.1017/S0954394519000243)
 
 * Kaye, Steven, Aleksandra Martynova, George Moroz, Neige Rochant, Samira Verhees and Aigul Zakirova. <span style="color: #CC0066;">To appear</span>. 'Andi (Zilo)'. In Yury Koryakov and Timur Maisak (eds.) *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
 
@@ -43,12 +42,12 @@ Updated: `r Sys.Date()`
 
 * Peeters-Podgaevskaja, Alla and Samira Ferxejs. 2014. 'V mire étom vsë --- kak kolence bambuka: japonskoe xajku v sovremennoj russkoj poézii [Everything in this world is like a bamboo knuckle: Japanese haiku in contemporary Russian poetry]'. In Wim Honselaar, Jenny Stelleman and Willem Weststeijn (eds.) *To the point: Festschrift for Eric de Haard on the occasion of his 65th birthday*. Amsterdam: Pegasus, 275--297.  [PDF](https://pure.uva.nl/ws/files/2071110/164846_Xajku_in_Russische_poezie.pdf)
 
-* Verhees, Samira. <span style="color: #CC0066;">Submitted</span>.  'Evidentiality in East Caucasian on the map.'
+* Verhees, Samira. 2021.  'Evidentiality in East Caucasian on the map.' *Languages of the Caucasus* ?. [URL]()
 * Verhees, Samira. 2020. 'Evidentiality in the Rikvani dialect of Andi'. *Iran and the Caucasus.* Vol 24(4), 309-324. [DOI](http://doi.org/10.1163/1573384X-20200305)
-* Verhees, Samira. 2019. 'Defining evidentiality'. *Voprosy jazykoznanija* 2019(6), 113--133. [DOI](https://ras.jes.su/vopjaz/s0373658x0007549-2-1) | [PDF](https://github.com/sverhees/site/blob/master/papers/Defining_evidentiality_draft_version.pdf)
+* Verhees, Samira. 2019. 'Defining evidentiality'. *Voprosy jazykoznanija* 2019(6), 113--133. [DOI](https://ras.jes.su/vopjaz/s0373658x0007549-2-1) | [PDF](https://vja.ruslang.ru/ru/archive/2019-6/113-133)
 * Verhees, Samira. 2019. 'General converbs in Andi'. *Studies in language* Vol. 43(1), 195--230. [DOI](https://doi.org/10.1075/sl.18026.ver)
 * Verhees, Samira. 2018. 'Chapter 12. The perfect in Avar and Andi: Cross-linguistic variation among two closely-related East Caucasian languages'. In Dalila Ayoun, Agnès Celle and Laure Lansari (eds.) *Tense, Aspect, Modality and Evidentiality: Cross-linguistic perspectives.* Amsterdam : John Benjamins, 261--280. [DOI](https://doi.org/10.1075/slcs.197.12ver)
-* Verhees, Samira. 2018. '[Review] S. E. Murray. The semantics of evidentials. (Oxford Studies in Semantics and Pragmatics, 9.) Oxford: Oxford University Press, 2017. 192 p. ISBN 978-0-19- 968157-0.' *Voprosy Jazykoznanija* 2018(3), 154--160. [DOI](https://www.libnauka.ru/item.php?doi=10.7868/S0373658X1803008X)
+* Verhees, Samira. 2018. '[Review] S. E. Murray. The semantics of evidentials. (Oxford Studies in Semantics and Pragmatics, 9.) Oxford: Oxford University Press, 2017. 192 p. ISBN 978-0-19- 968157-0.' *Voprosy Jazykoznanija* 2018(3), 154--160. [DOI](https://www.libnauka.ru/item.php?doi=10.7868/S0373658X1803008X) | [PDF](https://vja.ruslang.ru/ru/archive/2018-3/154-160)
 
 * Ферхеес, Самира. 2019. *Эвиденциальность как часть видо-временной системы в нахско-дагестанских языках [Evidentiality as part of tense-aspect in East Caucasian languages]*. НИУ ВШЭ Москва: Диссертация. [Repository](https://github.com/sverhees/dissertation_evidentiality)
 * Ферхеес, Самира. 2018. 'К происхождению эвиденциальности в нахско-дагестанских языках: структурные и ареальные перспективы' [Towards the origin of evidentiality in Nakh-Daghestanian languages: structural and areal perspectives]. *Вестник ПСТГУ Серия 3: Филология*. 2018(57), 110--123. [DOI](http://doi.org/10.15382/sturIII201857.110-123) | [PDF](http://periodical.pstgu.ru/en/pdf/article/6766)
@@ -58,11 +57,18 @@ Updated: `r Sys.Date()`
 
 ### Talks
 
+#### 2021
+
+* ‘Typological Atlas of the Languages of Daghestan’ with Michael Daniel, Timofey Mukhin, and Chiara Naccarato at *LACIM Webinar*, 10.05.2021, INALCO Paris (online).
+
+* ‘Reported speech in Botlikh’ at *A data oriented workshop: The grammatical variation of reported speech across languages*, 14.01.2021, University of Helsinki (online). 
+
+
 #### 2020
 
-* 'The encoding of evidentiality in East Caucasian: different types of marking and areal distribution' at [Online course on East Caucasian languages](https://ilcl.hse.ru/en/east_caucasian/), 18.11.2020 Linguistic Convergence Laboratory, HSE University Moscow | [PDF and video](https://ilcl.hse.ru/en/east_caucasian/schedule)
-
 * 'Reported speech in Botlikh' at *Seventeenth conference on typology and grammar for young scholars* 19--21.11.2020 Institute of Linguistic Studies RAS, St. Petersburg | [PDF](https://github.com/sverhees/site/blob/master/talks/2020MT_RS_in_Botlikh.pdf)
+
+* 'The encoding of evidentiality in East Caucasian: different types of marking and areal distribution' at [Online course on East Caucasian languages](https://ilcl.hse.ru/en/east_caucasian/), 18.11.2020 Linguistic Convergence Laboratory, HSE University Moscow | [PDF and video](https://ilcl.hse.ru/en/east_caucasian/schedule)
 
 * 'Catching variation during fieldwork on Daghestanian languages' with George Moroz at *Dialectology and linguistic geography*, 24.04.2020 RSUH, Moscow | [PDF and data](https://github.com/agricolamz/2020.04.24_RSUH_Zilo_variation)
 
@@ -116,6 +122,9 @@ Updated: `r Sys.Date()`
 <br>
 
 ### Other
+
+* Verhees, Samira. 2021. 'Negative copulas, animacy and demonstratives in Botlikh (with some notes on Miarso).
+Fieldwork report April 2021' | [PDF](https://github.com/sverhees/fieldtrip_spring2021/blob/main/negative_copulas_field_report.pdf)
 
 * Naccarato, Chiara and Samira Verhees. 2021. 'Animacy in Botlikh' (Handout) | [PDF](https://github.com/sverhees/site/blob/master/other/Animacy_in_Botlikh.pdf)
 

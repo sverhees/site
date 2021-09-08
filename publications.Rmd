@@ -42,7 +42,7 @@ Updated: `r Sys.Date()`
 
 * Peeters-Podgaevskaja, Alla and Samira Ferxejs. 2014. 'V mire étom vsë --- kak kolence bambuka: japonskoe xajku v sovremennoj russkoj poézii [Everything in this world is like a bamboo knuckle: Japanese haiku in contemporary Russian poetry]'. In Wim Honselaar, Jenny Stelleman and Willem Weststeijn (eds.) *To the point: Festschrift for Eric de Haard on the occasion of his 65th birthday*. Amsterdam: Pegasus, 275--297.  [PDF](https://pure.uva.nl/ws/files/2071110/164846_Xajku_in_Russische_poezie.pdf)
 
-* Verhees, Samira. 2021.  'Evidentiality in East Caucasian on the map.' *Languages of the Caucasus* ?. [URL]()
+* Verhees, Samira. 2021.  'Evidentiality in East Caucasian on the map.' *Languages of the Caucasus* 5. [DOI](https://doi.org/10.5070/L95054646) | [URL](https://escholarship.org/uc/item/1zf7z1ck)
 * Verhees, Samira. 2020. 'Evidentiality in the Rikvani dialect of Andi'. *Iran and the Caucasus.* Vol 24(4), 309-324. [DOI](http://doi.org/10.1163/1573384X-20200305)
 * Verhees, Samira. 2019. 'Defining evidentiality'. *Voprosy jazykoznanija* 2019(6), 113--133. [DOI](https://ras.jes.su/vopjaz/s0373658x0007549-2-1) | [PDF](https://vja.ruslang.ru/ru/archive/2019-6/113-133)
 * Verhees, Samira. 2019. 'General converbs in Andi'. *Studies in language* Vol. 43(1), 195--230. [DOI](https://doi.org/10.1075/sl.18026.ver)

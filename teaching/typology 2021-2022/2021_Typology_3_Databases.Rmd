@@ -42,7 +42,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
 
-wals <- read_csv("wals_features.csv")
+wals <- read_csv("feature.csv")
 
 summary(wals$representation)
 
@@ -105,6 +105,11 @@ summary(wals$representation)
 ## Другое
 
 * [TulQuest](http://tulquest.huma-num.fr/en) -- база для лингвистических анкет и стимулов
+
+## Запланированные ресурсы
+
+* [Mainz Grammaticalization Project (MAGRAM)](https://en.magram.fb05.uni-mainz.de) -- база путей грамматикализации
+* [Glottobank](https://glottobank.org) -- семья новых баз данных, включая Grambank (= WALS 2.0)
 
 ## lingtypology
 

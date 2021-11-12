@@ -26,11 +26,11 @@ Updated: `r Sys.Date()`
 
 ### Papers and chapters
 
-* Alexeyev, Mikhail and Samira Verhees. <span style="color: #CC0066;">To appear.</span> 'Botlikh'. In Yury Koryakov and Timur Maisak (eds.) *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
+* Alexeyev, Mikhail and Samira Verhees. <span style="color: #CC0066;">To appear.</span> 'Botlikh'. In Yury Koryakov and Timur Maisak (eds.) *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton. [Draft](https://github.com/sverhees/site/blob/master/papers/botlikhgrammar_draft.pdf)
 
-* Chechuro, Ilia, Michael Daniel, and Samira verhees. 2021. Small-scale multilingualism through the prism of lexical borrowing. *Journal of Bilingualism* ?, ?. [Draft](https://www.academia.edu/44322050/Small_scale_multilingualism_through_the_prism_of_lexical_borrowing) 
+* Chechuro, Ilia, Michael Daniel, and Samira Verhees. 2021. Small-scale multilingualism through the prism of lexical borrowing. *Journal of Bilingualism* 25(4), ?. [Draft](https://www.academia.edu/44322050/Small_scale_multilingualism_through_the_prism_of_lexical_borrowing) 
 
-* Daniel, Michael, Ilia Chechuro, Samira Verhees, and Nina Dobrushina. 2021. 'Lingua francas as lexical donors: evidence from Daghestan'. *Language* 97.3, ?. [Draft](https://www.academia.edu/44322048/Lingua_francas_as_lexical_donors_Evidence_from_Daghestan)
+* Daniel, Michael, Ilia Chechuro, Samira Verhees, and Nina Dobrushina. 2021. 'Lingua francas as lexical donors: evidence from Daghestan'. *Language* 97.3, 520--560. [DOI](https://doi.org/10.1353/lan.2021.0046) | [Draft](https://www.academia.edu/44322048/Lingua_francas_as_lexical_donors_Evidence_from_Daghestan)
 
 * Daniel, Michael, Nina Dobrushina, Polina Kazakova, Ilya Schurov, Vasilisa Zhigulskaya, Alexei Vinyar, Daria Ignatenko, Ekaterina Makhlina, Ruprecht von Waldenfels, Alexandra Ter-Avanesova, Ekaterina Gerasimenko, Maria Tsfasman, Samira Verhees, Sergey Say and Maria Ovsjannikova. 2019. 'Dialect loss in the Russian North: modeling change across variables' *Language Variation and Change.* Vol. 31(3), 353--376. [DOI](https://doi.org/10.1017/S0954394519000243)
 
@@ -59,6 +59,8 @@ Updated: `r Sys.Date()`
 
 #### 2021
 
+* 'Linguistic geography of East Caucasian languages' with Yuri Koryakov at [Online course on East Caucasian languages](https://ilcl.hse.ru/en/east_caucasian/), 3.11.2021 Linguistic Convergence Laboratory, HSE University Moscow | [PDF and video](https://ilcl.hse.ru/en/east_caucasian/lectures)
+
 * ‘Typological Atlas of the Languages of Daghestan’ with Michael Daniel, Timofey Mukhin, and Chiara Naccarato at *LACIM Webinar*, 10.05.2021, INALCO Paris (online).
 
 * ‘Reported speech in Botlikh’ at *A data oriented workshop: The grammatical variation of reported speech across languages*, 14.01.2021, University of Helsinki (online). 
@@ -68,7 +70,7 @@ Updated: `r Sys.Date()`
 
 * 'Reported speech in Botlikh' at *Seventeenth conference on typology and grammar for young scholars* 19--21.11.2020 Institute of Linguistic Studies RAS, St. Petersburg | [PDF](https://github.com/sverhees/site/blob/master/talks/2020MT_RS_in_Botlikh.pdf)
 
-* 'The encoding of evidentiality in East Caucasian: different types of marking and areal distribution' at [Online course on East Caucasian languages](https://ilcl.hse.ru/en/east_caucasian/), 18.11.2020 Linguistic Convergence Laboratory, HSE University Moscow | [PDF and video](https://ilcl.hse.ru/en/east_caucasian/schedule)
+* 'The encoding of evidentiality in East Caucasian: different types of marking and areal distribution' at [Online course on East Caucasian languages](https://ilcl.hse.ru/en/east_caucasian/), 18.11.2020 Linguistic Convergence Laboratory, HSE University Moscow | [PDF and video](https://ilcl.hse.ru/en/east_caucasian/2020)
 
 * 'Catching variation during fieldwork on Daghestanian languages' with George Moroz at *Dialectology and linguistic geography*, 24.04.2020 RSUH, Moscow | [PDF and data](https://github.com/agricolamz/2020.04.24_RSUH_Zilo_variation)
 

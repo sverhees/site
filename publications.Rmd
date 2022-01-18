@@ -28,7 +28,7 @@ Updated: `r Sys.Date()`
 
 * Alexeyev, Mikhail and Samira Verhees. <span style="color: #CC0066;">To appear.</span> 'Botlikh'. In Yury Koryakov and Timur Maisak (eds.) *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton. [Draft](https://github.com/sverhees/site/blob/master/papers/botlikhgrammar_draft.pdf)
 
-* Chechuro, Ilia, Michael Daniel, and Samira Verhees. 2021. Small-scale multilingualism through the prism of lexical borrowing. *Journal of Bilingualism* 25(4), ?. [Draft](https://www.academia.edu/44322050/Small_scale_multilingualism_through_the_prism_of_lexical_borrowing) 
+* Chechuro, Ilia, Michael Daniel, and Samira Verhees. 2021. Small-scale multilingualism through the prism of lexical borrowing. *Journal of Bilingualism* 25(4), 1019--1039. [DOI](https://doi.org/10.1177%2F13670069211023141) | [Draft](https://www.academia.edu/44322050/Small_scale_multilingualism_through_the_prism_of_lexical_borrowing) 
 
 * Daniel, Michael, Ilia Chechuro, Samira Verhees, and Nina Dobrushina. 2021. 'Lingua francas as lexical donors: evidence from Daghestan'. *Language* 97.3, 520--560. [DOI](https://doi.org/10.1353/lan.2021.0046) | [Draft](https://www.academia.edu/44322048/Lingua_francas_as_lexical_donors_Evidence_from_Daghestan)
 
@@ -59,7 +59,11 @@ Updated: `r Sys.Date()`
 
 #### 2021
 
-* 'Linguistic geography of East Caucasian languages' with Yuri Koryakov at [Online course on East Caucasian languages](https://ilcl.hse.ru/en/east_caucasian/), 3.11.2021 Linguistic Convergence Laboratory, HSE University Moscow | [PDF and video](https://ilcl.hse.ru/en/east_caucasian/lectures)
+* 'Типологический атлас языков Дагестана -- проблемы и перспективы' (с Т. А. Мухиным и М. К. Наккарато) [Typological atlas of the languages of Dagestan. Problems and perspectives (w. T. Mukhin and C. Naccarato)]. *Актуальные проблемы изучения кавказских языков*, 15.12.2021, Dagestan State University, Makhachkala.
+
+* 'Animacy agreement in non-verbal predication in Botlikh' at *Eighteenth conference on typology and grammar for young scholars*, 25--27.11.2021, Institute of Linguistic Studies RAS, St. Petersburg (online) | [PDF and data](https://github.com/sverhees/2021mt_negcop/blob/master/2021mt_negative_copulas.pdf)
+
+* 'Linguistic geography of East Caucasian languages' with Yuri Koryakov at *[Online course on East Caucasian languages](https://ilcl.hse.ru/en/east_caucasian/)*, 3.11.2021 Linguistic Convergence Laboratory, HSE University Moscow | [PDF and video](https://ilcl.hse.ru/en/east_caucasian/lectures)
 
 * ‘Typological Atlas of the Languages of Daghestan’ with Michael Daniel, Timofey Mukhin, and Chiara Naccarato at *LACIM Webinar*, 10.05.2021, INALCO Paris (online).
 
@@ -68,7 +72,7 @@ Updated: `r Sys.Date()`
 
 #### 2020
 
-* 'Reported speech in Botlikh' at *Seventeenth conference on typology and grammar for young scholars* 19--21.11.2020 Institute of Linguistic Studies RAS, St. Petersburg | [PDF](https://github.com/sverhees/site/blob/master/talks/2020MT_RS_in_Botlikh.pdf)
+* 'Reported speech in Botlikh' at *Seventeenth conference on typology and grammar for young scholars* 19--21.11.2020 Institute of Linguistic Studies RAS, St. Petersburg (online) | [PDF](https://github.com/sverhees/site/blob/master/talks/2020MT_RS_in_Botlikh.pdf)
 
 * 'The encoding of evidentiality in East Caucasian: different types of marking and areal distribution' at [Online course on East Caucasian languages](https://ilcl.hse.ru/en/east_caucasian/), 18.11.2020 Linguistic Convergence Laboratory, HSE University Moscow | [PDF and video](https://ilcl.hse.ru/en/east_caucasian/2020)
 
@@ -130,7 +134,7 @@ Fieldwork report April 2021' | [PDF](https://github.com/sverhees/fieldtrip_sprin
 
 * Naccarato, Chiara and Samira Verhees. 2021. 'Animacy in Botlikh' (Handout) | [PDF](https://github.com/sverhees/site/blob/master/other/Animacy_in_Botlikh.pdf)
 
-* Moroz, George and Samira Verhees. 2020. *East Caucasian villagest dataset v1.0*. Moscow: International Convergence Laboratory NRU HSE. [Repository](https://github.com/sverhees/master_villages) | [DOI](10.5281/zenodo.3824151)
+* Moroz, George and Samira Verhees. 2020. *East Caucasian villagest dataset v2.0*. Moscow: International Convergence Laboratory NRU HSE. [Repository](https://github.com/sverhees/master_villages) | [DOI](https://doi.org/10.5281/zenodo.5588473)
 
 * Chechuro, Ilya, Michael Daniel, Nina Dobrushina and Samira Verhees. 2019. *Daghestanian loans database.* Linguistic Convergence Laboratory, HSE. [URL](https://lingconlab.github.io/Dagloan_database/DL_database.html) | [DOI](https://zenodo.org/record/2616530).
 

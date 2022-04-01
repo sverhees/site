@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Introduction"
 output:
   html_document:
     fig_cap: yes
@@ -19,14 +19,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![*Mountain views from the Caucasus drawn by J.A. Güldenstädt (1787-1791)*.[^3]](images/berg.png)
 
-[^3]: J.A. Güldenstädt's *Reisen durch Russland und im Caucasischen Gebürge* is available online at Russia's [State Public Historical Library](http://elib.shpl.ru/ru/nodes/26689-guldenstadt-j-a-reisen-durch-russland-und-im-caucasischen-geburge-st-petersburg-1787-1791), accessed on 10.01.2020.
+[^3]: J.A. Güldenstädt's *Reisen durch Russland und im Caucasischen Gebürge* is available online at Russia's [State Public Historical Library](http://elib.shpl.ru/ru/nodes/26689-guldenstadt-j-a-reisen-durch-russland-und-im-caucasischen-geburge-st-petersburg-1787-1791), accessed on 10.01.2020. 
 
 <br>
 
 This website provides an overview of my research as a linguist. It was created with `RMarkdown` in RStudio [@rstudio].
 
-My main interests are East Caucasian languages, linguistic typology and geography, language variation and change, processes of convergence, evidentiality, spatial deixis, and gender agreement.
-
+My main interests are East Caucasian languages, linguistic typology and geography, language variation and change, processes of convergence, evidentiality, spatial deixis, and gender agreement. 
 
 <br>
 
@@ -69,8 +68,7 @@ The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates h
 
 I was born in 1989 in a small village in the province of Zeeland, the Netherlands. Most of my academic career has been based in Russia, until I quit my job at HSE University Moscow in March 2022. Now I work as an independent researcher.
 
-**Stop the war in Ukraine.**
-Bring Putin and his regime to justice.
+**I condemn Russia's war against Ukraine.**
 
 ---
 

@@ -40,8 +40,6 @@ Updated: `r Sys.Date()`
 
 * Naccarato, Chiara, George Moroz and Samira Verhees. <span style="color: #CC0066;">To appear</span>. 'Godoberi'. In Yury Koryakov and Timur Maisak (eds.) *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
 
-* Peeters-Podgaevskaja, Alla and Samira Ferxejs. 2014. 'V mire étom vsë --- kak kolence bambuka: japonskoe xajku v sovremennoj russkoj poézii [Everything in this world is like a bamboo knuckle: Japanese haiku in contemporary Russian poetry]'. In Wim Honselaar, Jenny Stelleman and Willem Weststeijn (eds.) *To the point: Festschrift for Eric de Haard on the occasion of his 65th birthday*. Amsterdam: Pegasus, 275--297.  [PDF](https://pure.uva.nl/ws/files/2071110/164846_Xajku_in_Russische_poezie.pdf)
-
 * Verhees, Samira. 2021.  'Evidentiality in East Caucasian on the map.' *Languages of the Caucasus* 5. [DOI](https://doi.org/10.5070/L95054646) | [URL](https://escholarship.org/uc/item/1zf7z1ck)
 * Verhees, Samira. 2020. 'Evidentiality in the Rikvani dialect of Andi'. *Iran and the Caucasus.* Vol 24(4), 309-324. [DOI](http://doi.org/10.1163/1573384X-20200305)
 * Verhees, Samira. 2019. 'Defining evidentiality'. *Voprosy jazykoznanija* 2019(6), 113--133. [DOI](https://ras.jes.su/vopjaz/s0373658x0007549-2-1) | [PDF](https://vja.ruslang.ru/ru/archive/2019-6/113-133)
@@ -49,9 +47,12 @@ Updated: `r Sys.Date()`
 * Verhees, Samira. 2018. 'Chapter 12. The perfect in Avar and Andi: Cross-linguistic variation among two closely-related East Caucasian languages'. In Dalila Ayoun, Agnès Celle and Laure Lansari (eds.) *Tense, Aspect, Modality and Evidentiality: Cross-linguistic perspectives.* Amsterdam : John Benjamins, 261--280. [DOI](https://doi.org/10.1075/slcs.197.12ver)
 * Verhees, Samira. 2018. '[Review] S. E. Murray. The semantics of evidentials. (Oxford Studies in Semantics and Pragmatics, 9.) Oxford: Oxford University Press, 2017. 192 p. ISBN 978-0-19- 968157-0.' *Voprosy Jazykoznanija* 2018(3), 154--160. [DOI](https://www.libnauka.ru/item.php?doi=10.7868/S0373658X1803008X) | [PDF](https://vja.ruslang.ru/ru/archive/2018-3/154-160)
 
+* Наккарато, Кьяра и Самира Ферхеес. 2021. 'Доброе утро, проснулись? Утренние приветствия в языках Дагестана' [Good morning, did you wake up? Morning greetings in the languages of Dagestan]. Тимур Майсак, Нина Сумбатова, Яков Тестелец (ред.) *Дурхъаси хазна. Сборник статей к 60-летию Р. О. Муталова*. Москва: Буки Веди, 283--298.
+* Пеетерс-Подгаевская, Алла и Самира Ферхейс. 2014. 'В мире этом всё -- как коленце бамбука: японское хайку в современной русской поэзии' [Everything in this world is like a bamboo knuckle: Japanese haiku in contemporary Russian poetry]. Wim Honselaar, Jenny Stelleman and Willem Weststeijn (eds.) *To the point: Festschrift for Eric de Haard on the occasion of his 65th birthday*. Amsterdam: Pegasus, 275--297.  [PDF](https://pure.uva.nl/ws/files/2071110/164846_Xajku_in_Russische_poezie.pdf)
+
 * Ферхеес, Самира. 2019. *Эвиденциальность как часть видо-временной системы в нахско-дагестанских языках [Evidentiality as part of tense-aspect in East Caucasian languages]*. НИУ ВШЭ Москва: Диссертация. [Repository](https://github.com/sverhees/dissertation_evidentiality)
 * Ферхеес, Самира. 2018. 'К происхождению эвиденциальности в нахско-дагестанских языках: структурные и ареальные перспективы' [Towards the origin of evidentiality in Nakh-Daghestanian languages: structural and areal perspectives]. *Вестник ПСТГУ Серия 3: Филология*. 2018(57), 110--123. [DOI](http://doi.org/10.15382/sturIII201857.110-123) | [PDF](http://periodical.pstgu.ru/en/pdf/article/6766)
-* Ферхеес, Самира. 2017. 'Эвиденциальность и перфект в рутульском языке (на материале говора с. Кина) [Evidentiality and the perfect in Rutul (based on the dialect of the village Kina)]'. Marina Fedina (ред.) *Электронная письменность народов РФ: опыт, проблемы и перспективы. Сборник материалов научной конференции, 16--17 марта 2017г., Сыктывкар*. Syktyvkar: KRAGSiU, 228--235. [PDF](https://github.com/sverhees/site/blob/master/papers/Rutul_perfect_paper.pdf)
+* Ферхеес, Самира. 2017. 'Эвиденциальность и перфект в рутульском языке (на материале говора с. Кина) [Evidentiality and the perfect in Rutul (based on the dialect of the village Kina)]'. Марина Федина (ред.) *Электронная письменность народов РФ: опыт, проблемы и перспективы. Сборник материалов научной конференции, 16--17 марта 2017г., Сыктывкар*. Syktyvkar: KRAGSiU, 228--235. [PDF](https://github.com/sverhees/site/blob/master/papers/Rutul_perfect_paper.pdf)
 
 <br>
 

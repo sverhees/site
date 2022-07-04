@@ -23,9 +23,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-This website provides an overview of my research as a linguist. It was created with `RMarkdown` in RStudio [@rstudio].
+I created this site to provide an overview of my research as a linguist specializing in East Caucasian languages, evidentiality and areal typology. 
 
-My main interests are East Caucasian languages, linguistic typology and geography, language variation and change, processes of convergence, evidentiality, spatial deixis, and gender agreement. 
+Most of my academic career has been based in Russia, until I [quit my job](https://twitter.com/kajomka/status/1502249930374717443) at HSE University, Moscow in March 2022. After this I decided to switch careers. I continue some of my linguistic work as an independent researcher in my free time.
+
+**I condemn Russia's war against Ukraine.**
+
+This website was created with `RMarkdown` in RStudio [@rstudio].
 
 <br>
 
@@ -34,12 +38,9 @@ My main interests are East Caucasian languages, linguistic typology and geograph
 ### Botlikh documentation
 Botlikh is a small, unwritten language of the East Caucasian language family (Andic branch). I started working on this language by chance in 2017, when I was asked to edit and supplement a draft grammar sketch by the renowned Caucasiologist Mikhail Alexeyev. At some point this text will appear as a chapter in a new handbook on Caucasian languages. For now the latest draft version is available [here](https://github.com/sverhees/site/blob/master/papers/botlikhgrammar_draft.pdf).
 
-In 2019 I teamed up with Chiara Naccarato to investigate Botlikh's unique agreement system (see our talks on this topic: [1](https://github.com/sverhees/2019sle_ordinals), [2](https://github.com/sverhees/2019_Animacy-origin), [3](https://github.com/sverhees/2021mt_negcop/blob/master/2021mt_negative_copulas.pdf) and a general overview [handout](https://github.com/sverhees/site/blob/master/other/Animacy_in_Botlikh.pdf)). We are also in the process of translating and annotating Botlikh texts recorded by our predecessors, and plan to add new material to the corpus. Some general background on the language and our work (along with some alluring pictures) is given in [these slides](https://github.com/sverhees/2019_labseminar_botlikh/blob/master/201910_labseminar_Botlikh(slides).pdf).
-
-A curious fact about Botlikh is the existence of two Botlikh-Russian dictionaries, which were compiled independently of each other. George Moroz, Chiara Naccarato and I are currently studying these two resources to uncover different types of variation (see some preliminary results we presented [here](https://github.com/sverhees/2019_Botlikh_dictionaries)).
+In 2019 I teamed up with Chiara Naccarato to investigate Botlikh's unique agreement system (see our talks on this topic: [1](https://github.com/sverhees/2019sle_ordinals), [2](https://github.com/sverhees/2019_Animacy-origin), [3](https://github.com/sverhees/2021mt_negcop/blob/master/2021mt_negative_copulas.pdf) and a general overview [handout](https://github.com/sverhees/site/blob/master/other/Animacy_in_Botlikh.pdf)). We are also in the process of translating and annotating Botlikh texts recorded by our predecessors, and plan to add new material to the corpus. Aigul Zakirova recorded some new material in 2021, and Sara Zadykian is currently glossing texts and editing translations. Some general background on the language and our work (along with some alluring pictures) is given in [these slides](https://github.com/sverhees/2019_labseminar_botlikh/blob/master/201910_labseminar_Botlikh(slides).pdf).
 
 I also manage an [Instagram](https://www.instagram.com/botlikh_rasha/) account about the Botlikh language, and I published some texts from the corpus in Botlikh and Russian [here](https://sverhees.github.io/botlikh_khabar/).
-
 
 ### Andi documentation (Zilo dialect)
 The Andi language is a neighbor of Botlikh. I am one of several people who have worked on various aspects of Andi grammar by studying the dialect of the village Zilo since 2016. A grammar sketch is currently <span style="color: #CC0066;">in preparation</span>, and we are working on transcribing and annotating a corpus of texts that were recorded during field trips.
@@ -50,27 +51,21 @@ Variation among speakers is a known problem for any linguist doing fieldwork, wh
 During fieldwork in the village Zilo in 2019, George Moroz conducted an experiment to measure the variation rate of several features known to be variable in the local dialect of Andi. We then sent out a survey to researchers of East Caucasian languages about their preferences and habits for conducting fieldwork, to estimate the probability that an average researcher would catch the rate of variation measured. Some results are discussed [here](https://github.com/agricolamz/2019.11.26_ConLab_Zilo_variation) and [here](https://github.com/agricolamz/2020.04.24_RSUH_Zilo_variation).
 
 ### Typological Atlas of Daghestan
-The project [Typological Atlas of Daghestan](http://lingconlab.ru/dagatlas/) is a tool to visualize information about linguistic structures characteristic of Dagestan. The Atlas consists of datasets with information about particular features. Each year, a different group of students of the School of Linguistics at HSE University Moscow collects new datasets for the Atlas as part of a workshop. Chiara Naccarato and I are currently supervising the workshop, and together with Timofey Mukhin we are working on the interface and new visualizations. The website is currently running in beta version.
+The project [Typological Atlas of Daghestan (TALD)](http://lingconlab.ru/dagatlas/) is a tool to visualize information about linguistic structures characteristic of Dagestan. The Atlas consists of datasets with information about particular features. Each year, several students of the School of Linguistics at HSE University Moscow (as well as interns from other universities) collect new datasets for the Atlas as part of a workshop. I used to coordinate this workshop together with Chiara Naccarato, and was involved in designing the current structure, types of visualization, and workflow of the Atlas. [Click here](https://lingconlab.github.io/TALD_manual/) if you are interested in becoming a contributor of the Atlas.
 
 <br>
 
 ## Past projects
 
 ### Evidentiality as part of tense-aspect in East Caucasian languages
-My PhD project dealt with the grammaticalization and areal distribution of evidentiality as part of the tense-aspect system in East Caucasian languages. You can find more information in the [dedicated repository](https://sverhees.github.io/dissertation_evidentiality/home.html).
+My PhD project dealt with the grammaticalization and areal distribution of evidentiality as part of the tense-aspect system in East Caucasian languages. An overview of my findings is in [this paper](https://escholarship.org/uc/item/1zf7z1ck). You can find more information about my dissertation in the [dedicated repository](https://sverhees.github.io/dissertation_evidentiality/home.html).
 
 ### Loanwords in Dagestan
 The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates how patterns of multilingualism in Dagestan are reflected in lexical borrowings at the village level. I worked on this project with Michael Daniel, Ilya Chechuro and Nina Dobrushina from 2017--2019, collecting and annotating lexical data. The results are a [database](https://lingconlab.github.io/Dagloan_database/DL_database.html), several talks and posters, and two papers.
 
 <br>
 
-## About me
-
-I was born in 1989 in a small village in the province of Zeeland, the Netherlands. Most of my academic career has been based in Russia, until I quit my job at HSE University Moscow in March 2022. Now I work as an independent researcher.
-
-**I condemn Russia's war against Ukraine.**
-
----
+## About my name
 
 My given name is Samira, but my first name on my passport is Jannigje Helena. This has to do with a silly Dutch custom of giving children multiple Christian names as their official first name, and then calling them something else in daily life. (Read more about this [here](https://dutchreview.com/featured/what-is-a-roepnaam-explained/).) Names for daily use will often be derived from a first name, or at least start with the same letter, but not always.
 

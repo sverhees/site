@@ -13,12 +13,22 @@
 
 <title>Introduction</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -31,35 +41,33 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+    </style>
+
+
 
 
 
 
 <style type="text/css">
-h1 {
-  font-size: 34px;
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
 }
-h1.title {
-  font-size: 38px;
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-h2 {
-  font-size: 30px;
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-h3 {
-  font-size: 24px;
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
 }
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
+div.csl-indent {
+  margin-left: 2em;
 }
 </style>
 
@@ -72,10 +80,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -92,40 +96,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -153,7 +133,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -165,7 +145,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -176,10 +156,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -191,7 +184,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -317,7 +309,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -331,7 +323,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -357,7 +349,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -367,75 +359,162 @@ div.tocify {
 
 
 <div class="figure">
-<img src="images/berg.png" alt="Mountain views from the Caucasus drawn by J.A. Güldenstädt (1787-1791)." />
-<p class="caption"><em>Mountain views from the Caucasus drawn by J.A. Güldenstädt (1787-1791)</em>.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<img src="images/berg.png" alt="" />
+<p class="caption"><em>Mountain views from the Caucasus drawn by J.A.
+Güldenstädt (1787-1791)</em>.<a href="#fn1" class="footnote-ref"
+id="fnref1"><sup>1</sup></a></p>
 </div>
 <p><br></p>
-<p>This website provides an overview of my research as a linguist. It was created with <code>RMarkdown</code> in RStudio <span class="citation">(RStudio Team 2018)</span>.</p>
-<p>My main interests are East Caucasian languages, linguistic typology and geography, language variation and change, processes of convergence, evidentiality, spatial deixis, and gender agreement.</p>
+<p>I created this site to provide an overview of my research as a
+linguist specializing in East Caucasian languages, evidentiality and
+areal typology.</p>
+<p>Most of my academic career has been based in Russia, until I <a
+href="https://twitter.com/kajomka/status/1502249930374717443">quit my
+job</a> at HSE University, Moscow in March 2022. After this I decided to
+switch careers. I continue some of my linguistic work as an independent
+researcher in my free time.</p>
+<p><strong>I condemn Russia’s war against Ukraine.</strong></p>
+<p>This website was created with <code>RMarkdown</code> in RStudio <span
+class="citation">(RStudio Team 2018)</span>.</p>
 <p><br></p>
 <div id="current-projects" class="section level2">
 <h2>Current projects</h2>
 <div id="botlikh-documentation" class="section level3">
 <h3>Botlikh documentation</h3>
-<p>Botlikh is a small, unwritten language of the East Caucasian language family (Andic branch). I started working on this language by chance in 2017, when I was asked to edit and supplement a draft grammar sketch by the renowned Caucasiologist Mikhail Alexeyev. At some point this text will appear as a chapter in a new handbook on Caucasian languages. For now the latest draft version is available <a href="https://github.com/sverhees/site/blob/master/papers/botlikhgrammar_draft.pdf">here</a>.</p>
-<p>In 2019 I teamed up with Chiara Naccarato to investigate Botlikh’s unique agreement system (see our talks on this topic: <a href="https://github.com/sverhees/2019sle_ordinals">1</a>, <a href="https://github.com/sverhees/2019_Animacy-origin">2</a>, <a href="https://github.com/sverhees/2021mt_negcop/blob/master/2021mt_negative_copulas.pdf">3</a> and a general overview <a href="https://github.com/sverhees/site/blob/master/other/Animacy_in_Botlikh.pdf">handout</a>). We are also in the process of translating and annotating Botlikh texts recorded by our predecessors, and plan to add new material to the corpus. Some general background on the language and our work (along with some alluring pictures) is given in <a href="https://github.com/sverhees/2019_labseminar_botlikh/blob/master/201910_labseminar_Botlikh(slides).pdf">these slides</a>.</p>
-<p>A curious fact about Botlikh is the existence of two Botlikh-Russian dictionaries, which were compiled independently of each other. George Moroz, Chiara Naccarato and I are currently studying these two resources to uncover different types of variation (see some preliminary results we presented <a href="https://github.com/sverhees/2019_Botlikh_dictionaries">here</a>).</p>
-<p>I also manage an <a href="https://www.instagram.com/botlikh_rasha/">Instagram</a> account about the Botlikh language, and I published some texts from the corpus in Botlikh and Russian <a href="https://sverhees.github.io/botlikh_khabar/">here</a>.</p>
+<p>Botlikh is a small, unwritten language of the East Caucasian language
+family (Andic branch). I started working on this language by chance in
+2017, when I was asked to edit and supplement a draft grammar sketch by
+the renowned Caucasiologist Mikhail Alexeyev. At some point this text
+will appear as a chapter in a new handbook on Caucasian languages. For
+now the latest draft version is available <a
+href="https://github.com/sverhees/site/blob/master/papers/botlikhgrammar_draft.pdf">here</a>.</p>
+<p>In 2019 I teamed up with Chiara Naccarato to investigate Botlikh’s
+unique agreement system (see our talks on this topic: <a
+href="https://github.com/sverhees/2019sle_ordinals">1</a>, <a
+href="https://github.com/sverhees/2019_Animacy-origin">2</a>, <a
+href="https://github.com/sverhees/2021mt_negcop/blob/master/2021mt_negative_copulas.pdf">3</a>
+and a general overview <a
+href="https://github.com/sverhees/site/blob/master/other/Animacy_in_Botlikh.pdf">handout</a>).
+We are also in the process of translating and annotating Botlikh texts
+recorded by our predecessors, and plan to add new material to the
+corpus. Aigul Zakirova recorded some new material in 2021, and Sara
+Zadykian is currently glossing texts and editing translations. Some
+general background on the language and our work (along with some
+alluring pictures) is given in <a
+href="https://github.com/sverhees/2019_labseminar_botlikh/blob/master/201910_labseminar_Botlikh(slides).pdf">these
+slides</a>.</p>
+<p>I also manage an <a
+href="https://www.instagram.com/botlikh_rasha/">Instagram</a> account
+about the Botlikh language, and I published some texts from the corpus
+in Botlikh and Russian <a
+href="https://sverhees.github.io/botlikh_khabar/">here</a>.</p>
 </div>
 <div id="andi-documentation-zilo-dialect" class="section level3">
 <h3>Andi documentation (Zilo dialect)</h3>
-<p>The Andi language is a neighbor of Botlikh. I am one of several people who have worked on various aspects of Andi grammar by studying the dialect of the village Zilo since 2016. A grammar sketch is currently <span style="color: #CC0066;">in preparation</span>, and we are working on transcribing and annotating a corpus of texts that were recorded during field trips.</p>
+<p>The Andi language is a neighbor of Botlikh. I am one of several
+people who have worked on various aspects of Andi grammar by studying
+the dialect of the village Zilo since 2016. A grammar sketch is
+currently <span style="color: #CC0066;">in preparation</span>, and we
+are working on transcribing and annotating a corpus of texts that were
+recorded during field trips.</p>
 </div>
 <div id="variation-in-unwritten-languages" class="section level3">
 <h3>Variation in unwritten languages</h3>
-<p>Variation among speakers is a known problem for any linguist doing fieldwork, whether their purpose is language documentation or investigation of a theoretical problem.</p>
-<p>During fieldwork in the village Zilo in 2019, George Moroz conducted an experiment to measure the variation rate of several features known to be variable in the local dialect of Andi. We then sent out a survey to researchers of East Caucasian languages about their preferences and habits for conducting fieldwork, to estimate the probability that an average researcher would catch the rate of variation measured. Some results are discussed <a href="https://github.com/agricolamz/2019.11.26_ConLab_Zilo_variation">here</a> and <a href="https://github.com/agricolamz/2020.04.24_RSUH_Zilo_variation">here</a>.</p>
+<p>Variation among speakers is a known problem for any linguist doing
+fieldwork, whether their purpose is language documentation or
+investigation of a theoretical problem.</p>
+<p>During fieldwork in the village Zilo in 2019, George Moroz conducted
+an experiment to measure the variation rate of several features known to
+be variable in the local dialect of Andi. We then sent out a survey to
+researchers of East Caucasian languages about their preferences and
+habits for conducting fieldwork, to estimate the probability that an
+average researcher would catch the rate of variation measured. Some
+results are discussed <a
+href="https://github.com/agricolamz/2019.11.26_ConLab_Zilo_variation">here</a>
+and <a
+href="https://github.com/agricolamz/2020.04.24_RSUH_Zilo_variation">here</a>.</p>
 </div>
 <div id="typological-atlas-of-daghestan" class="section level3">
 <h3>Typological Atlas of Daghestan</h3>
-<p>The project <a href="http://lingconlab.ru/dagatlas/">Typological Atlas of Daghestan</a> is a tool to visualize information about linguistic structures characteristic of Dagestan. The Atlas consists of datasets with information about particular features. Each year, a different group of students of the School of Linguistics at HSE University Moscow collects new datasets for the Atlas as part of a workshop. Chiara Naccarato and I are currently supervising the workshop, and together with Timofey Mukhin we are working on the interface and new visualizations. The website is currently running in beta version.</p>
+<p>The project <a href="http://lingconlab.ru/dagatlas/">Typological
+Atlas of Daghestan (TALD)</a> is a tool to visualize information about
+linguistic structures characteristic of Dagestan. The Atlas consists of
+datasets with information about particular features. Each year, several
+students of the School of Linguistics at HSE University Moscow (as well
+as interns from other universities) collect new datasets for the Atlas
+as part of a workshop. I used to coordinate this workshop together with
+Chiara Naccarato, and was involved in designing the current structure,
+types of visualization, and workflow of the Atlas. <a
+href="https://lingconlab.github.io/TALD_manual/">Click here</a> if you
+are interested in becoming a contributor of the Atlas.</p>
 <p><br></p>
 </div>
 </div>
 <div id="past-projects" class="section level2">
 <h2>Past projects</h2>
-<div id="evidentiality-as-part-of-tense-aspect-in-east-caucasian-languages" class="section level3">
-<h3>Evidentiality as part of tense-aspect in East Caucasian languages</h3>
-<p>My PhD project dealt with the grammaticalization and areal distribution of evidentiality as part of the tense-aspect system in East Caucasian languages. You can find more information in the <a href="https://sverhees.github.io/dissertation_evidentiality/home.html">dedicated repository</a>.</p>
+<div
+id="evidentiality-as-part-of-tense-aspect-in-east-caucasian-languages"
+class="section level3">
+<h3>Evidentiality as part of tense-aspect in East Caucasian
+languages</h3>
+<p>My PhD project dealt with the grammaticalization and areal
+distribution of evidentiality as part of the tense-aspect system in East
+Caucasian languages. An overview of my findings is in <a
+href="https://escholarship.org/uc/item/1zf7z1ck">this paper</a>. You can
+find more information about my dissertation in the <a
+href="https://sverhees.github.io/dissertation_evidentiality/home.html">dedicated
+repository</a>.</p>
 </div>
 <div id="loanwords-in-dagestan" class="section level3">
 <h3>Loanwords in Dagestan</h3>
-<p>The <a href="https://ilcl.hse.ru/en/projects">Daghestanian Loans</a> project investigates how patterns of multilingualism in Dagestan are reflected in lexical borrowings at the village level. I worked on this project with Michael Daniel, Ilya Chechuro and Nina Dobrushina from 2017–2019, collecting and annotating lexical data. The results are a <a href="https://lingconlab.github.io/Dagloan_database/DL_database.html">database</a>, several talks and posters, and two papers.</p>
+<p>The <a href="https://ilcl.hse.ru/en/projects">Daghestanian Loans</a>
+project investigates how patterns of multilingualism in Dagestan are
+reflected in lexical borrowings at the village level. I worked on this
+project with Michael Daniel, Ilya Chechuro and Nina Dobrushina from
+2017–2019, collecting and annotating lexical data. The results are a <a
+href="https://lingconlab.github.io/Dagloan_database/DL_database.html">database</a>,
+several talks and posters, and two papers.</p>
 <p><br></p>
 </div>
 </div>
-<div id="about-me" class="section level2">
-<h2>About me</h2>
-<p>I was born in 1989 in a small village in the province of Zeeland, the Netherlands. Most of my academic career has been based in Russia, until I quit my job at HSE University Moscow in March 2022. Now I work as an independent researcher.</p>
-<p><strong>I condemn Russia’s war against Ukraine.</strong></p>
-<hr />
-<p>My given name is Samira, but my first name on my passport is Jannigje Helena. This has to do with a silly Dutch custom of giving children multiple Christian names as their official first name, and then calling them something else in daily life. (Read more about this <a href="https://dutchreview.com/featured/what-is-a-roepnaam-explained/">here</a>.) Names for daily use will often be derived from a first name, or at least start with the same letter, but not always.</p>
-<p>Contrary to a persistent myth, Samira is not my Caucasiologist pseudonym, but one of the names given to me by my parents. I always go by this name unless I am forced to do otherwise. So please call me Samira and consider Jannigje Helena my tax-form filling alter ego.</p>
+<div id="about-my-name" class="section level2">
+<h2>About my name</h2>
+<p>My given name is Samira, but my first name on my passport is Jannigje
+Helena. This has to do with a silly Dutch custom of giving children
+multiple Christian names as their official first name, and then calling
+them something else in daily life. (Read more about this <a
+href="https://dutchreview.com/featured/what-is-a-roepnaam-explained/">here</a>.)
+Names for daily use will often be derived from a first name, or at least
+start with the same letter, but not always.</p>
+<p>Contrary to a persistent myth, Samira is not my Caucasiologist
+pseudonym, but one of the names given to me by my parents. I always go
+by this name unless I am forced to do otherwise. So please call me
+Samira and consider Jannigje Helena my tax-form filling alter ego.</p>
 <p><br></p>
 <div class="figure">
-<img src="images/goat.png" alt="A goat in Zilo, Dagestan. July 2019." />
+<img src="images/goat.png" alt="" />
 <p class="caption"><em>A goat in Zilo, Dagestan. July 2019.</em></p>
 </div>
 <p><br></p>
 </div>
 <div id="references" class="section level2 unnumbered">
-<h2>References</h2>
-<div id="refs" class="references">
-<div id="ref-rstudio">
-<p>RStudio Team. 2018. <em>RStudio: Integrated Development Environment for R</em>. Boston, MA: RStudio, Inc. <a href="http://www.rstudio.com/">http://www.rstudio.com/</a>.</p>
+<h2 class="unnumbered">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-rstudio" class="csl-entry">
+RStudio Team. 2018. <em>RStudio: Integrated Development Environment for
+r</em>. Boston, MA: RStudio, Inc. <a
+href="http://www.rstudio.com/">http://www.rstudio.com/</a>.
 </div>
 </div>
 </div>
-<div class="footnotes">
+<div class="footnotes footnotes-end-of-document">
 <hr />
 <ol>
-<li id="fn1"><p>J.A. Güldenstädt’s <em>Reisen durch Russland und im Caucasischen Gebürge</em> is available online at Russia’s <a href="http://elib.shpl.ru/ru/nodes/26689-guldenstadt-j-a-reisen-durch-russland-und-im-caucasischen-geburge-st-petersburg-1787-1791">State Public Historical Library</a>, accessed on 10.01.2020.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn1"><p>J.A. Güldenstädt’s <em>Reisen durch Russland und im
+Caucasischen Gebürge</em> is available online at Russia’s <a
+href="http://elib.shpl.ru/ru/nodes/26689-guldenstadt-j-a-reisen-durch-russland-und-im-caucasischen-geburge-st-petersburg-1787-1791">State
+Public Historical Library</a>, accessed on 10.01.2020.<a href="#fnref1"
+class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
@@ -450,7 +529,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -468,7 +547,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -477,6 +556,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

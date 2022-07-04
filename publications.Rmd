@@ -58,6 +58,10 @@ Updated: `r Sys.Date()`
 
 ### Talks
 
+#### 2022
+
+* 'Time nouns and temporal constructions in the languages of Dagestan' (w. Timur Maisak). *Second International Conference Anatolia-The Caucasus-Iran*, 21.06.2022, Russian-Armenian University, Yerevan. [PDF](https://github.com/sverhees/site/blob/master/talks/2022Yerevan_Timenouns.pdf)
+
 #### 2021
 
 * 'Типологический атлас языков Дагестана -- проблемы и перспективы' (с Т. А. Мухиным и М. К. Наккарато) [Typological atlas of the languages of Dagestan. Problems and perspectives (w. T. Mukhin and C. Naccarato)]. *Актуальные проблемы изучения кавказских языков*, 15.12.2021, Dagestan State University, Makhachkala.

@@ -1,0 +1,706 @@
+---
+header-includes:
+   - \usepackage{float}
+   - \usepackage{tipa}
+always_allow_html: yes
+bibliography: refs.bib
+urlcolor: purple
+title: "Language vitality and attitudes in Botlikh"
+author: Samira Verhees
+date: Version `r Sys.Date()`
+output:
+  pdf_document:
+    toc: true
+    latex_engine: xelatex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(lingtypology)
+library(wesanderson)
+survey <- read_tsv("attitude.csv")
+```
+
+# 1 Introduction
+Botlikh ([botl1242](https://glottolog.org/resource/languoid/id/botl1242)) is an unwritten language of Dagestan. It belongs to the Andic branch of the East Caucasian family. In the last version of UNESCO's Atlas of the World's Languages in Danger [@moseley2010], the language was evaluated as **definitely endangered**, i.e. it is no longer passed on to children.[^1]
+
+![Location of Botlikh on the map](figures/botlikh_general.png)
+
+[^1]: This version of the Atlas is now archived. A new version is forthcoming.
+
+My personal observations during visits to Botlikh in 2017--2021 contradict these assessments. I witnessed children speaking Botlikh to their older relatives and to their peers. At the same time, some speakers voiced concerns that this was changing. Children now speak Russian at kindergarten, and some families are allegedly shifting. In order to get a clearer picture of the language's dynamics and the speech community's attitudes, I decided to conduct a survey among speakers of Botlikh. In this report I discuss the results of that survey. [Section 2](#background) introduces some relevant sociolinguistic context about the language. [Section 3](#survey) describes the methodology I used to conduct the survey, followed by a discussion of the answers divided into thematic blocks. These thematic blocks correspond to sections of the survey. In [Section 4](#conclusion-and-discussion) I summarize my findings. You can find the original survey and a table with the respondents' answers [here]().
+
+# 2 Background
+
+Botlikh is mainly spoken in three villages in the Botlikh district of Dagestan, an autonomous republic in the North Caucasus region of the Russian Federation: Botlikh (12,159), Miarso (1,714) and Ashino (79) [@azaev2000].[^2] A fourth village Ankho had a population of 35 according to the latest census but is currently uninhabited.
+
+![Botlikh villages and their neighbors](figures/botlikh_hood.png)
+
+[^2]: I reference Azaev [-@azaev2000] here, because this is the only source that mentions Ashino in addition to Botlikh and Miarso. The population figures are from the 2010 census of the Russian Federation, accessed through the villages' respective Wikipedia pages on 25 July 2022 (see [Botlikh](https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%82%D0%BB%D0%B8%D1%85), [Miarso](https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%B0%D1%80%D1%81%D0%BE), [Ashino](https://ru.wikipedia.org/wiki/%D0%90%D1%88%D0%B8%D0%BD%D0%BE)). This was necessary because the original census data were not available online. Azaev [-@azaev2000], who was a native of Botlikh, reported a population of 5700 in Botlikh, 3200 of whom were Botlikhs. This seems to reflect the situation of the 1990s, as the population had almost doubled by the time of the 2002 census. Azaev [-@azaev2000] also reported a population of 350 for Ashino, which has since emptied.
+
+## 2.1 Language and identity
+
+Botlikhs and their language have no official status in Dagestan or the Russian Federation. Most speakers are at least trilingual. Besides Botlikh they speak Russian (the language of administration and education) and Avar. Avar is a major literary language of Dagestan. It was historically an important L2 for speakers of a number of smaller languages of the East Caucasian family, including all Tsezic and Andic languages, Archi of the Lezgic branch and Mehweb of the Dargwa branch. They used it to communicate with their Avar neighbors and as a means of interethnic communication with other people who spoke Avar as L2. Starting from the 1930s the Soviet Union authorities categorized Botlikhs and other people who spoke Avar as L2 as ethnic Avars. Consequently, Avar was established as their native language and taught as such at school. This practice continues to this day. Education in Dagestan is in Russian, which is also taught as a major subject. Local languages that have a written standard are taught for a few hours per week as a subject called "native language" in localities where they are spoken by a sufficient number of people. If the language of a community does not have a written standard, they are taught a distantly related language as "native language". One result of this ethnic and linguistic planning is that Botlikhs and other people from the Avar-dominant region identify as ethnic Avars. Census data show this very clearly. 1517 ethnic Botlikhs were counted in the 1926 census. By 2002 the number had dropped to 16, while no mass exodus of Botlikhs from the region occurred. The village Botlikh witnessed a strong growth of the population especially in the late 20th century, due to labor migration from nearby villages where Avar and other Andic languages are spoken. However, these new inhabitants did not displace the original population, so the decline in the number of Botlikhs must have a different cause. In the period before the 2010 census, local activists campaigned among the population to indicate Botlikh as ethnic identity and native language. As a result, in 2010 the number of ethnic Botlikhs suddenly spiked to 3508. Authors of dictionaries and grammar sketches of Botlikh, some of whom are natives of Botlikh, estimate the population to be between 3000--8000. A new census was conducted in 2021--2022, but the results are not known yet.
+
+## 2.2 Villages and dialects
+
+Dagestanian highland villages are typically mono-ethnic, a situation that is maintained through strict village-level endogamy [@dobrushinaunpub]. Ownership of land in a particular location is tied to these marriage practices. Selling one's land to an outsider is not acceptable practice (ibid.). Botlikh forms an exception in this regard. The village roughly consists of two parts: the old village and the so-called *mikrorayon*. The old village is built as a typical highland village, with houses tightly packed on top of each other. It is inhabited predominantly by Botlikhs. The mikrorayon is a kind of suburb that emerged in the 20th century to facilitate the influx of labour migrants from other villages. A number of Botlikhs also live in the mikrorayon, because it is possible to build large, detached houses with gardens there, whereas the space in the old village is limited. Horticulture (especially cultivating fruittrees) is traditionally an important part of the local economy. People who live in the old village usually have a plot of land for gardening elsewhere. Botlikh is also the administrative center of the district and thus the site of important infrastructure such as medical facilities and governmental services. It also hosts a large market on Sundays, and it forms an important transport connection between the highland villages of the region and the capital Makhachkala. The village constitutes a semi-urbanized enviornment and has a plethora of shops and several restaurants. Miarso is much smaller than Botlikh and only has basic facilities like a school and a few shops selling produce. Ashino currently does not have any facilities. Children go to school elsewhere.
+
+Each of the three villages has a distinct dialect that is recognizable but fully intelligible to speakers from the other villages. In the words of one of my consultants (F, 1980 from Ashino, currently residing in Botlikh): "In Botlikh people shorten their words more than in Miarso, and in Ashino they shorten their words even more than in Botlikh." Saidova & Abusov [-@saidovaabusov2012: 565--566] describe some of the main differences between the dialects of Botlikh and Miarso. In Verhees [@verheesagreement] I describe some differences in the agreement system specifically. 
+
+Ashino originated as a hamlet of Botlikh, and its dialect seems to be quite similar to that of Botlikh, although it has never been properly studied. According to Alimova & Magomedov [-@alimovamagomedov2002: 180], Miarso also originated as a hamlet of Botlikh. Their information is based on reports from inhabitants of Botlikh. Additionally, they mention that the local name of Miarso, *Kilu* also means 'hamlet'. According to the dictionary, 'hamlet' in Botlikh is *Kuli*. If Miarso is indeed a former hamlet-type offshoot of Botlikh, it must have occurred much earlier than in the case of Ashino, because the dialect is differentiated from Botlikh more strongly.
+
+Botlikh's closest relative within the Andic branch is Godoberi, a small language spoken in three neighboring villages (Godoberi, Zibirkhali, Beledi). Botlikh and Godoberi are similar enough to be mutually intelligible, though this does seem to require some exposure. (REF) reports that the languages are mutually intelligible among older generations due to more frequent contact, whereas younger generations have trouble understanding the other language. Gudava [-@gudava1959: 3] considered Botlikh and Godoberi to form a single dialect continuum, where the idiom of Miarso occupies an intermediate position (REF). Lexicostatistical data suggest that Miarso is indeed slightly closer to Godoberi than Botlikh is to Godoberi.
+
+### Table 1. ASJP distance for Botlikh, Miarso, Godoberi (98 lexemes)
+|          | Botlikh | Miarso | Godoberi |
+|----------|---------|--------|----------|
+| Botlikh  | 0       | 0.17   | 0.34     |
+| Miarso   | 0.17    | 0      | 0.3      |
+| Godoberi | 0.34    | 0.3    | 0        |
+
+Table 1 shows the ASJP distance between the idioms based on a sample of 98 lexemes from the Swadesh list. The ASJP project [@asjp] works with a core list of 40 stable concepts from the Swadesh list, but only 34 of them were present in the data that were available to me. I used lexical data from Botlikh, Miarso and Godoberi, which were collected as part of the [DagSwadesh project](http://lingconlab.ru/dagswadesh/) [@dagswadesh]. Raw data were kindly provided to me by Konstantin Filatov. The pairwise distance between the idioms was computed with the help of an [app](https://alkaitagi.github.io/language-ldn/) developed by Muhammad Magomedov. Table 2 shows the ASJP distance for the sample of 34 concepts. The distances are lower overall, but the relative differences between the idioms are stable. STATISTICAL SIGNIFICANCE?
+
+### Table 2. ASJP distance for Botlikh, Miarso, Godoberi (34 lexemes)
+|          | Botlikh | Miarso | Godoberi |
+|----------|---------|--------|----------|
+| Botlikh  | 0       | 0.11   | 0.27     |
+| Miarso   | 0.11    | 0      | 0.24     |
+| Godoberi | 0.27    | 0.24   | 0        |
+
+If we assume that Godoberi and Botlikh once split off from a single ancestor (according to Koryakov (2006: 21), this happened over 1500 years ago), and Miarso split off from Botlikh some time after, Miarso should be more distant from Godoberi. Field data on multilingualism and contact patterns suggest that the similarity between Miarso and Godoberi could be contact-induced (REF??).
+
+# 3 Survey
+
+The survey was conducted online using a Google form. It consisted of 47 mandatory questions and several optional questions, divided into seven blocks. The questions were of different types: open, multiple choice, selection of multiple options, and rating statements on a scale of 1 to 5. The questions were in Russian. The full survey (in Russian with an English translation) is available [here]().
+
+## 3.1 Instagram
+
+The survey was distributed as a link to a Google form via an [account](https://www.instagram.com/botlikh_rasha/) dedicated to the Botlikh language on the social network Instagram. I created this Instagram account in 2020 during the COVID-19 pandemic as a way to keep in touch with the community, and to share some interesting things I came across during my research on the language. In July 2022 the account had over 750 followers. Most active followers are speakers of Botlikh. Others include linguists and activists interested in indigenous languages.  The reason for creating an account on Instagram, specifically, is that it is incredibly popular in Dagestan compared to other social networks.
+
+Instagram provides several tools to conduct polls and receive feedback from subscribers. These functionalities were designed to increase user engagement rather than to collect data, so they are not very usable for the latter purpose. Polls can be conducted only in "stories" -- updates that are displayed publicly for only 24 hours. During those 24 hours, the user who posted the update can see the number and usernames of those who viewed it, and who participated in a poll. This information is not visible to others. After 24 hours "stories" are archived and can be viewed only by the user who posted them. Statistics about who viewed and interacted with the post disappear shortly after the post itself is no longer public. Instagram does not offer the possibility to download these statistics, either, so the information has to be screenshotted within a limited timeframe and then processed manually. Another obstacle is the lack of metadata. Unlike other social networks like Facebook, or its Russian counterpart Vkontakte, where people generally use their real identity, user profiles on Instagram are more nebulous. Many of my subscribers do not use their real name or photo, and their profiles do not provide basic personal information like place of residence or age. For this reason, I typically do not use the built-in options of Instagram for research purposes. 
+
+The account does provide a convenient platform for the distribution of online surveys. It allows me to reach a wider and more diverse audience than if I would distribute the survey among my personal network of speakers. My first attempt to collect data remotely using this method was in November 2021. This was for a different study aimed at the acceptability of agreement patterns. In the survey speakers had to rate a total of 89 sentences on a scale of 1-5. Within a few hours the survey had 24 genuine responses. The results of the survey are discussed [here](). I offered a compensation of 100 rubles to everyone who filled out the survey, but most people declined to receive any money. Several people suggested to donate to charity instead. 
+
+For the present survey I decided to offer a 100 ruble donation to charity for each response. I asked subscribers to suggest a local charity, and then asked them to vote on the proposed options. The majority vote went to [Insan](), a well-known Dagestanian charity. Unfortunately, it turned out that not everyone in Botlikh supports this organization due to religious reasons, so I provided an option to participate in the survey without contributing to Insan. Two respondents selected this option.
+
+The present survey was not as successful as the previous one in terms of the number of respondents. After a period of 10 days and several attempts to boost the survey, only 13 people had participated. I am not sure of the exact reason for this low interest. It could be a combination of factors. One subscriber suggested that the timing was unfortunate, because many people were busy preparing their children for final exams in June. Another possibility is that people were less interested in this survey. I had anticipated that language preservation would be a more interesting topic to my subscribers as compared to the previous survey, which was about grammar and therefore more abstract. However, the present survey was more demanding of the participant because it had more open questions asking people about their opinions. In the previous survey they had to simply rate different examples, which some indicated was like a fun kind of quiz in their native language.
+
+Another factor that likely had some influence is the fact that the Russian government recently declared Instagram's parent company Meta an extremist organization (REF). Subsequently, access to Instagram was blocked in the Russian Federation. The website and app are now accessible only through a VPN service. Many people in Russia continue to use Instagram and other blocked websites with the help of a VPN, but it has an overall deterring effect. Some do not use a VPN, others spend less time on social media because accessing them through a VPN is a hassle. The reach of my posts has been effectively cut in half since the ban went into effect. In March I created a Telegram channel as back-up for my Instagram account, because Telegram is also widely used in Russia and easier to access. Unfortunately, Telegram is not as popular among my audience as Instagram used to be, and it is a very different app from Instagram in terms of functionality and the demographics of users.
+
+## 3.2 Metadata
+
+The first block of the survey was aimed at collecting metadata on who filled out the survey. The fact that the survey was distributed through an Instagram account about the Botlikh language makes the sample inherently biased towards people who are more interested in the language and its preservation. The sample also shows a strong bias towards female respondents: 10/13 respondents were female. This was also the case in earlier polls and surveys. The majority of the active subscribers to my Instagram account are female. Instagram's active users generally are predominantly female (REF). Figure 1 below shows the representation of age groups among the participants. Respondents were asked to select an age group as they are shown in the graph (rather than fill out their exact age).
+
+```{r, fig.width=3, fig.height=2, fig.align='center', fig.cap="Age groups of respondents (Question 2)"}
+age <- survey %>%
+  select(age_group)%>%
+  group_by(age_group)%>%
+  summarize(age_total = n())
+
+ggplot(age, aes(x=age_group, y=age_total, fill=age_group)) +
+  geom_bar(stat="identity")+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+The majority of the respondents were born in Botlikh and currently live there. There was an instruction to specify in which part of the village the respondent lived (the old village or the mikrorayon), but most did not provide this information. One respondent was born in Ashino. A fair number of respondents were city dwellers. Among them residents of Dagestanian cities like Kizlyar, Khasavyurt, and Makhachkala, as well as two residents of Moscow.
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Place of birth and place of residence (Questions 3--4)"}
+
+birth_place <- survey %>%
+  select(birth_place) %>%
+  group_by(birth_place) %>%
+  summarize(total = n()) %>%
+  rename(place = birth_place)
+birth_place$type <- "birth place"
+
+residence <- survey %>%
+  select(residence) %>%
+  group_by(residence) %>%
+  summarize(total = n())%>%
+  rename(place = residence)
+residence$type <- "residence"
+
+places <- rbind(birth_place, residence)%>%
+  mutate(place = fct_reorder(place, total))
+
+ggplot(places, aes(x=place, y=total, fill=type)) +
+  geom_bar(stat="identity")+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank())+
+        coord_flip()
+```
+
+Respondents were asked about their nationality in several different formulations. First, they were simply asked what their nationality was. Within the Russian Federation this is typically interpreted as one's ethnic identity. Next, they were asked how they would respond to this question in different contexts: in Botlikh, in Makhachkala, in Moscow, and abroad. The questions were posed as open questions to get the most natural answer possible. The answers were then recoded for unification purposes. For example, different respondents could give the same answer in different languages (e.g. Russian or Botlikh). The full table of survey data (which is available here) contains both the original answers and their unification in English.
+
+```{r, fig.width=4, fig.height=3, fig.align='center', fig.cap="Self-reported ethnicity of Botlikhs in different contexts (Question 5)"}
+
+nation_general <- survey %>%
+  select(nationality) %>%
+  group_by(nationality) %>%
+  summarize(total = n())
+nation_general$context <- "general"
+
+nation_botlikh <- survey %>%
+  select(nationality_botlikh) %>%
+  group_by(nationality_botlikh) %>%
+  summarize(total = n())
+nation_botlikh$context <- "botlikh"
+colnames(nation_botlikh)[1] <- "nationality"
+
+nation_mcx <- survey %>%
+  select(nationality_makhachkala) %>%
+  group_by(nationality_makhachkala) %>%
+  summarize(total = n())
+nation_mcx$context <- "makhachkala"
+colnames(nation_mcx)[1] <- "nationality"
+
+nation_msk <- survey %>%
+  select(nationality_moscow) %>%
+  group_by(nationality_moscow) %>%
+  summarize(total = n())
+nation_msk$context <- "moscow"
+colnames(nation_msk)[1] <- "nationality"
+
+nation_abroad <- survey %>%
+  select(nationality_abroad) %>%
+  group_by(nationality_abroad) %>%
+  summarize(total = n())
+nation_abroad$context <- "abroad"
+colnames(nation_abroad)[1] <- "nationality"
+
+nationality <- bind_rows(nation_general, nation_botlikh, nation_mcx,
+                       nation_msk, nation_abroad)
+  nationality$context <- factor(nationality$context, 
+                                levels = c("general", "botlikh",
+                                           "makhachkala", "moscow",
+                                           "abroad"))
+
+ggplot(nationality, aes(nationality, total, group = context, color = context)) +
+  geom_line()+
+  scale_color_manual(values = wes_palette("Moonrise3"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        axis.text.x = element_text(angle = 50, vjust = 1, hjust=1))
+```
+
+The graph shows that most of the respondents by default identify as Avar (context: general). A smaller number chose Botlikh in this context. 10/13 answered that they would identify as Botlikhs when asked in Botlikh. In Makhachkala (the capital of Dagestan), the majority identifies as Botlikh, with a smaller number identifying as Avar. One person answered "Avar from Botlikh" (coded as Avar). In Moscow the number of people identifying as Botlikh drops, and Avar becomes more prominent. Four people identify as "Dagestanian" in this environment, an identity that was not mentioned before. One respondent presented themselves as "Avar from Dagestan, born in Botlikh district" (coded as Mixed). Mixed identities were more common for abroad. This includes: "Dagestanian, Russian", "Avar from Dagestan", "Avar from Dagestan, Russia", "Avar from Botlikh". Three respondents identified as Russian in this context, using the word *rossijanin* (lit. 'citizen of Russia') as opposed to the adjective *russkij*, which refers to Russians as an ethnic group. Two people identified as Avar and three as Botlikh in this context.
+
+These answers show that the ethnic or national identity of Botlikhs is layered, and that their concept of nationality or ethnicity is flexible. Which layer they use to present themselves depends on the context. They anticipate on what they think will be familiar to the person who asks the question. For example, Russians may not be aware of the ethnic diversity of Dagestan, hence several respondents would identify themselves as Dagestanian in Moscow.
+
+To conclude this section of questions, I asked what the respondent's native language was called in their native language, to which everyone responded *bujχaɬi mic'ːi*, i.e. 'Botlikh' in Botlikh. The reason for asking this question in this way, was because I did not exclude the possibility that among the respondents would be long-time residents of Botlikh who learned the language as an L2, people from Miarso or Ashino who might answer differently than people from Botlikh (since *bujχaɬi* is essentially the genitive form of the toponym 'Botlikh'), and finally Botlikhs who might consider Avar to be their native language.
+
+## 3.3 Ethno-linguistic identification
+
+In the previous block I asked respondents about their ethnic identity and their native language. In the next block I approached the same topic from a non-personal perspective. Question 7, illustrated in Figure 6, provided three possible ways to finish the sentence "Botlikhs are...".
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Ethnic affiliation of Botlikhs (Question 7)"}
+
+botlikh_ethnos <- survey %>%
+  select(botlikh_ethnos) %>%
+  group_by(botlikh_ethnos) %>%
+  summarize(total = n())
+
+ggplot(botlikh_ethnos, aes(x=botlikh_ethnos, y=total, fill=botlikh_ethnos)) +
+  geom_bar(stat="identity")+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+The concept of **subethnos** was introduced by Russian anthropologist Yulian Bromley in the 1980s, and it is still widely used in discussions of people and languages of the former Soviet Union (REF). It refers to a group of people within an ethnic group that inhabit a compact territory and have specific characteristics which set them apart from the rest of the group. In Bromley's view subethnic groups emerge when the larger ethnic group is not fully consolidated, or when the subethnic group is separated from the larger group, for example due to migrations. It is not clear to me based on which criteria a supposed subethnic group can be linked to a larger ethnic group. Presumably this is based on some historical evidence for kinship. Botlikhs are not a subethnic group of Avars by any definition. They constitute a distinct group historically, culturally, and linguistically. They are distant relatives of Avars and have been in close contact with them for a prolonged period of time, but that does not negate their independent history.
+
+Despite its factual incorrectness, I included this term as an option among the answers because it is still widely used in Dagestan, and because it represents a specific way of viewing Botlikhs within the ethno-political context, namely as belonging to the larger group of Avars while also having distinct traits. Regardless of their ethnic identification, all of the respondents indicated that the native language of Botlikhs was Botlikh (Question 8). This contradicts the framing of Avar as "native language" in the school system.
+
+Questions 9--11 were aimed at the status and affiliation of each idiom. Respondents were asked to select whether a given idiom was an independent language or a dialect. In case they selected the latter, they could optionally specify to which language they thought this dialect belonged. Botlikh was considered an independent language by 12/13 respondents (Question 9). One person indicated that it was a dialect, but did not specify of which language. Miarso was considered an independent language by 2 respondents. The remaining 11 considered it a dialect, and the majority of them indicated that it was a dialect of Botlikh, specifically. Unfortunately, there were no respondents from Miarso. It would have been interesting to see whether they are more inclined to view their idiom as distinct from Botlikh. Ashino was universally considered a dialect, 11 out of 13 specified that it was a dialect of Botlikh. This is not surprising, since Ashino is closer to Botlikh than Miarso. For the sake of comparison, it might have been informative to include a similar question about a closely related and partially mutually intelligible language like Godoberi. Unfortunately, I only realized this afterwards.
+
+## 3.4 Language in the family
+The respondents spoke an average of two languages in their households (Question 12). Botlikh was spoken in 12/13 households.[^household] Other languages included Avar (5 households), Russian (6 households), and one case where the Rikvani dialect of Andi was spoken. I also asked the respondents with whom they spoke Botlikh. My expectation would be that people use Botlikh more often when speaking to older generations, and less so when talking to children. Table 3 below shows the possible answers to the question and the number of respondents who selected it (for this question it was possible to select multiple answers).
+
+### Table 3. With whom do you speak your own language? (Question 13)
+
+| Answer                                | Frequency |
+|---------------------------------------|-----------|
+| parents                               | 11/13     |
+| other relatives                       | 11/13     |
+| fellow villagers                      | 11/13     |
+| children                              | 11/13     |
+| grandparents                          | 8/13      |
+| neighbors                             | 7/13      |
+| spouse                                | 6/13      |
+| I don’t really speak Botlikh any more | 0/13      |
+
+[^household]: The question which languages people spoke in the household was posed as an open question, because I was not sure in advance which languages I could expect to be part of the repertoire. Besides Botlikh, Avar and Russian, I suspected that different Andic languages might be among the possibilities. One respondent answered the question simply with "different languages", and their answer thus did not contribute anything to the figures of specific languages.
+
+The answers do not show a positive bias towards the elderly, nor a negative bias with respect to children. I cannot explain why some people speak Botlikh to their parents and other relatives but not to their grandparents. Perhaps the grandparents of some respondents are no longer alive. 13/13 respondents indicated that they find it important to speak their own language (Question 14) and to transfer it to (their) children (Question 15). Some motivations they provided for why they think it is important to pass the language on to their children include: "By preserving the language, we preserve the land, our uniqueness, morality and customs."; "Children should know their own language. Unfortunately not all of my children know it, and none of them know Avar."; "Children should become carriers of the culture, customs and language of their ancestors."; "The language is very beautiful. It is convenient to know a language that not everybody knows."
+
+### Mixed marriages
+
+11 respondents actually spoke Botlikh to their children. One of the two remaining respondents was likely too young to have children. There was one respondent who spoke Botlikh only with their children and with no one else. It is interesting that relatively few people (6/13) spoke Botlikh with their spouse. During my visits to Botlikh I got the impression that it is not uncommon there to marry someone who is from a different place and/or speaks another language. I met several people from such mixed families and my consultants mentioned that this is not a rare phenomenon in Botlikh. Botlikh as a multi-ethnic village is also home to mixed marriages where neither partner is Botlikh. In 2019 I met a couple where the wife was from Godoberi and the husband was from the Andi village Zilo. Both had come to Botlikh for work, where they met and subsequently settled. According to them, their children spoke the language of both parents, as well as Botlikh, which they picked up from their peers, and Avar and Russian, which are taught at school. The couple spoke Avar to each other. My consultants in Miarso similarly reported that mixed marriages are common there now. As mentioned in Section 2.2, Dagestanian highland villages are traditionally characterized by strict village-level endogamy. Botlikh and Miarso seem to be abandoning this custom.
+
+10/13 respondents thought there were many mixed marriages in Botlikh (Question 18). 2/13 thought there were not many, and one respondent was unsure. Two respondents added that frequent mixed marriages were a recent phenomenon. I also asked which language children of mixed marriages were likely to speak (Question 19). Their answers were divided into four categories: lingua franca (children will speak a third language that both parents know, such as Avar or Russian), local (children will speak the language of the village where they live, regardless of the native languages of their parents); multiple (the child will speak the language of both of their parents); paternal (the child will speak the language of the father). Traditionally, on the rare occasion of a mixed marriage in highland Dagestan, the woman would move to the husband's village and shift to his language.
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Language spoken by children of mixed marriages (Question 19)"}
+
+mixedmar <- survey %>%
+  select(mixed_languages) %>%
+  group_by(mixed_languages) %>%
+  summarize(total = n())
+
+ggplot(mixedmar, aes(x=mixed_languages, y=total, fill=(mixed_languages))) +
+  geom_bar(stat="identity")+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+Most of the respondents were of the opinion that children of mixed marriages speak multiple languages. One of them specified that they grew up in such a family themselves. Another explained that she spoke Avar with her husband, who is from the Andi village Rikvani, and that they each speak their native language to the children. The person who proposed that the children would speak the local language indicated that they knew many cases of mixed marriages where Botlikh was spoken. Since we have no further details about the cases they are referring to, we cannot be certain that these are not examples of the patrilineal strategy. One of the respondents who suggested that children would speak the language of the father based their opinion on an assumption: "In patriarchal Dagestan, children will probably speak the language of the father." One person said that children from mixed families typically speak Russian, though they also knew of some cases where children spoke the native language(s) of their parents.
+
+## 3.5 Language use
+The previous block of questions showed that Botlikh is still spoken in the household, including by children, even in families that are linguistically mixed. People also speak the language with other relatives and fellow villagers. Botlikh is also home to a large market on Sundays, which attracts merchants from other parts of the region and sometimes beyond, and buyers from villages in the neighborhood.
+
+### Language at the market
+I asked the respondents what language they spoke at the market (Question 17), providing three options: Botlikh, Avar, Russian. All three of these languages are used at the market, Botlikh being most popular (12/13), followed by Avar (11/13) and Russian (7/13). When asked what determines the choice of language, they answered that it depends on who they are talking to. They speak Botlikh to people who are from Botlikh, and to everyone else they speak Avar, or Russian if the person does not know Avar. The relatively low number of people who indicated that they spoke Russian at the market (as compared to Avar) could mean that most sellers at the market are regional and speak Avar as L1 or L2.
+
+### Language on social media
+Although Botlikh does not have an official writing system, people do write the language on social media using Avar orthography, which they learn in school. Avar's writing system is based on the Cyrillic alphabet, with digraphs representing sounds not found in Slavic languages. Avar orthography allows Botlikhs to write comprehensible messages in their native tongue, but it is not ideally equipped for this purpose. Avar lacks the phoneme /ƛ/ and thus has no way of writing it. Botlikhs solve this problem by rendering /ƛ/ as a geminate /ɬː/ , which is written as лълъ. This can cause some confusion because /ɬː/ is also a phoneme in Botlikh. Actual geminates are variably distinguished among speakers. According to one of my consultants, some people use capitalized vowels to reflect stress patterns, which can form minimal pairs. Avar does not have nasalized vowels, so Botlikhs do not reflect this in writing. However, it seems that nasalization in Botlikh is generally inconsistent. In some speakers it is barely audible or absent where it is very salient in the speech of others. The status of this feature thus requires further investigation. Some precedent for a writing system is set by the Botlikh dictionaries [@saidovaabusov2012, @alekseevazaev2019], which contain an inventory of phonemes represented in Cyrillic letters. Unfortunately these resources are not widely circulated in the community, so people are generally not aware of the proposed writing system.
+
+I asked the respondents which languages they use on social media (Question 16), again providing the options Botlikh, Avar and Russian. Social media of course is a very broad notion. It encompasses both messenger services for private communication and social networks or websites where people post more or less public updates and comments. The most commonly used language on social media was Russian (12/13), followed by Botlikh (6/13) and lastly Avar (3/13). Respondents indicated that the choice of language depends on whom they are addressing, but Russian seems to be the default choice online. 7/13 only use Russian on sociale media. One of them explained that they use Russian on social media "except on Whatsapp", which is a private messenger service. Another respondent indicated that they use Russian because they are not literate in Avar or Botlikh. The Instagram account of the village Botlikh[link], which has almost 20,000 subscribers, writes publications in Russian. Comments are predominantly in Russian and occasionally in Avar or Botlikh.
+
+### Fluency
+In this block I also asked respondents to evaluate their own fluency in Botlikh (Question 20). 12/13 considered themselves fluent, one person chose the option "I speak it OK, but there are many words I don’t know". All of the respondents thought their level of fluency was typical for their generation (Question 21). This means that even respondents who live in cities are confident in their command of the language, and that everyone including younger people think that their generation speaks the language well (though note that there were not many respondents under 25).
+
+### Language death and language lessons
+Next, I asked them to assess the likelihood that the Botlikh language would disappear (Question 22). The respondents were mostly optimistic about the future of the language.
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Do you think it is possible that people will stop speaking Botlikh in the near future? (Question 22)"}
+
+langdeath <- survey %>%
+  select(likely_language_death) %>%
+  group_by(likely_language_death) %>%
+  summarize(total = n())
+
+ggplot(langdeath, aes(x=likely_language_death, y=total, fill=(likely_language_death))) +
+  geom_bar(stat="identity")+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+During one visit to Botlikh, a "native language" teacher complained that Avar is becoming less relevant. Children neglect the subject and some parents outright question the utility of learning Avar. I asked the respondents to indicate how useful they found Avar lessons at school in Botlikh (Question 23). 1 completely useless -- 5 very useful.
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Do you think teaching Avar at school in Botlikh is useful? (Question 23)"}
+
+avarschool <- survey %>%
+  select(avar_school)%>%
+  group_by(avar_school)%>%
+  summarise(score = n())
+
+avar_school <- c(2,4)
+score <- c(0, 0)
+empties <- as.data.frame(cbind(avar_school, score))
+avarschool <- rbind(avarschool, empties)
+
+ggplot(avarschool, aes(x=avar_school, y=score, fill=as.factor(avar_school))) +
+  geom_bar(stat="identity")+
+    scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+I also asked whether they would like their children to learn Botlikh in school (Question 24). Botlikh lessons were evaluated more positively than Avar lessons, but the respondents were not quite unanimous here either. CORRELATION?
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Would you like your children to learn Botlikh in school? (Question 24)"}
+
+botlikhschool <- survey %>%
+  select(botlikh_school) %>%
+  group_by(botlikh_school) %>%
+  summarize(total = n())
+
+ggplot(botlikhschool, aes(x=botlikh_school, y=total, fill=(botlikh_school))) +
+  geom_bar(stat="identity")+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+## 3.6 Attitudes towards the native language
+The next block of the survey consisted of 12 statements which speakers were asked to rate on a scale of 1--5, where 1 means "completely disagree" and 5 means "completely agree".
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 25. It is important to be able to speak your own language."}
+s1 <- survey %>%
+  rename(s25 = `25. Важно уметь говорить на своем языке.`)%>%
+  select(s25)%>%
+  group_by(s25)%>%
+  summarise(score = n())
+
+s25 <- 1:4
+score <- c(0, 0, 0, 0)
+empties <- as.data.frame(cbind(s25, score))
+s1 <- rbind(s1, empties)
+
+ggplot(s1, aes(x=s25, y=score, fill=as.factor(s25))) +
+  geom_bar(stat="identity")+
+    scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+This question was meant to convey the idea that knowledge of a minority language does not have any economic benefits.[^3] Judging from the results, some speakers do agree with this idea.
+
+[^3]: Thanks to Muhammad Magomedov for advising me on how to formulate this statement.
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 26. The Botlikh language will not feed you."}
+s2 <- survey %>%
+  rename(s26 = `26. Ботлихский язык не прокормит.`)%>%
+  select(s26)%>%
+  group_by(s26)%>%
+  summarise(score = n())
+
+ggplot(s2, aes(x=s26, y=score, fill = as.factor(s26))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 27. Knowing the language of your ancestors is a must."}
+
+s3 <- survey %>%
+  rename(s27 = `27. Знание языка своих предков обязательно.`)%>%
+  select(s27)%>%
+  group_by(s27)%>%
+  summarise(score = n())
+
+s27 <- 1:4
+score <- c(0, 0, 0, 0)
+empties <- as.data.frame(cbind(s27, score))
+s3 <- rbind(s3, empties)
+
+ggplot(s3, aes(x=s27, y=score, fill = as.factor(s27))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+A common motivation to shift to a socioeconomically dominant language in a household, is that proper knowledge of such a language is highly valued, and knowledge of a native language would somehow impede its acquisition.
+
+```{r, fig.width=4, fig.height=2,  fig.align='center', fig.cap="Question 28. Knowledge of the Botlikh language is a hindrance to learning Russian well."}
+s4 <- survey %>%
+  rename(s28 = `28. Знание ботлихского языка мешает хорошо выучить русский.`)%>%
+  select(s28)%>%
+  group_by(s28)%>%
+  summarise(score = n())
+
+s28 <- 3:5
+score <- c(0, 0, 0)
+empties <- as.data.frame(cbind(s28, score))
+s4 <- rbind(s4, empties)
+
+ggplot(s4, aes(x=s28, y=score, fill = as.factor(s28))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 29. If the Botlikh language were to disappear, that would be bad."}
+
+s5 <- survey %>%
+  rename(s29 = `29. Если ботлихский язык исчезнет, это будет плохо.`)%>%
+  select(s29)%>%
+  group_by(s29)%>%
+  summarise(score = n())
+
+s29 <- c(2, 3)
+score <- c(0, 0)
+empties <- as.data.frame(cbind(s29, score))
+s5 <- rbind(s5, empties)
+
+ggplot(s5, aes(x=s29, y=score, fill = as.factor(s29))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+Questions 30--34 were aimed at the value attached to knowing different languages in the potential repertoire of Botlikhs. Overall Russian is considered the most important. The statement that "Children should know Russian" received an average rating of 5 on a scale of 1--5. Botlikh comes in second with an average score of 4.8, followed by Avar (4.5), English (3.9) and Arabic (3.8). The graphs below show the dispersion of the scores.
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 30. Children should know Avar."}
+
+s6 <- survey %>%
+  rename(s30 = `30. Дети должны знать аварский.`)%>%
+  select(s30)%>%
+  group_by(s30)%>%
+  summarise(score = n())
+
+s30 <- c(1,4)
+score <- c(0, 0)
+empties <- as.data.frame(cbind(s30, score))
+s6 <- rbind(s6, empties)
+
+ggplot(s6, aes(x=s30, y=score, fill = as.factor(s30))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 31. Children should know Botlikh."}
+
+s7 <- survey %>%
+  rename(s31 = `31. Дети должны знать ботлихский.`)%>%
+  select(s31)%>%
+  group_by(s31)%>%
+  summarise(score = n())
+
+s31 <- c(1, 2, 4)
+score <- c(0, 0, 0)
+empties <- as.data.frame(cbind(s31, score))
+s7 <- rbind(s7, empties)
+
+ggplot(s7, aes(x=s31, y=score, fill = as.factor(s31))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 32. Children should know Russian."}
+
+s8 <- survey %>%
+  rename(s32 = `32. Дети должны знать русский.`)%>%
+  select(s32)%>%
+  group_by(s32)%>%
+  summarise(score = n())
+
+s32 <- 1:4
+score <- c(0, 0, 0, 0)
+empties <- as.data.frame(cbind(s32, score))
+s8 <- rbind(s8, empties)
+
+ggplot(s8, aes(x=s32, y=score, fill = as.factor(s32))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 33. Children should know Arabic."}
+s9 <- survey %>%
+  rename(s33 = `33. Дети должны знать арабский.`)%>%
+  select(s33)%>%
+  group_by(s33)%>%
+  summarise(score = n())
+
+ggplot(s9, aes(x=s33, y=score, fill = as.factor(s33))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 34. Children should know English."}
+
+s10 <- survey %>%
+  rename(s34 = `34. Дети должны знать английский.`)%>%
+  select(s34)%>%
+  group_by(s34)%>%
+  summarise(score = n())
+
+s34 <- 1:2
+score <- c(0, 0)
+empties <- as.data.frame(cbind(s34, score))
+s10 <- rbind(s10, empties)
+
+ggplot(s10, aes(x=s34, y=score, fill = as.factor(s34))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+Questions 35--36 are about the topic of the next thematic block: language preservation. Most respondents agreed that the government should support local languages. At the same time, they agreed that preserving Botlikh is the responsibility of Botlikhs themselves. This could mean that they feel the initiative should come from the community, whereas the responsibility of the government is to provide material support for these initiatives.
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 35. The government should support local languages."}
+
+s11 <- survey %>%
+  rename(s35 = `35. Государство должно поддерживать местные языки.`)%>%
+  select(s35)%>%
+  group_by(s35)%>%
+  summarise(score = n())
+
+s35 <- 1:2
+score <- c(0, 0)
+empties <- as.data.frame(cbind(s35, score))
+s11 <- rbind(s11, empties)
+
+ggplot(s11, aes(x=s35, y=score, fill = as.factor(s35))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 36. The preservation of the Botlikh language is the responsibility of Botlikhs."}
+
+s12 <- survey %>%
+  rename(s36 = `36. Сохранение ботлихского языка - дело ботлихцев.`)%>%
+  select(s36)%>%
+  group_by(s36)%>%
+  summarise(score = n())
+
+s36 <- 2
+score <- 0
+empties <- as.data.frame(cbind(s36, score))
+s12 <- rbind(s12, empties)
+
+ggplot(s12, aes(x=s36, y=score, fill = as.factor(s36))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:13))+
+  scale_fill_manual(values = wes_palette("Royal2"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")
+```
+
+## 3.7 Preservation efforts
+Block six was aimed at how best to preserve Botlikh. Questions 37--43 listed different initiatives for language preservation. Respondents were asked to rate these initiatives on a scale of 1--5 in terms of whether they would support them. 1 meant 'I would not support this', 5 meant 'I would absolutely support this'.
+
+37. Creation of an official Botlikh writing system
+38. Creation of educational materials (alphabet primer, phrase book, textbooks)
+39. Social events like a dictation in Botlikh
+40. Compulsory Botlikh lessons in school
+41. Voluntary courses in Botlikh
+42. A newspaper or news broadcast
+
+Table * below shows the average score of each of these initiatives.
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap=""}
+
+preserv <- survey %>%
+  rename(`writing system`=`37. Создание официальной ботлихской письменности`)%>%
+  rename(`educational material`=`38. Создание учебных материалов по ботлихскому (азбука, разговорник, учебник)`)%>%
+  rename(`social events`=`39. Общественные мероприятия, такие как диктант на ботлихском`)%>%
+  rename(`compulsory lessons` = `40. Проведение обязательных уроков ботлихского в школе`)%>%
+  rename(`voluntary courses` = `41. Проведение курсов ботлихского на добровольной основе`)%>%
+  rename(media=`42. Газета или новостная передача на ботлихском`)%>%
+  rename(`entertaining content`=`43. Перевод или создание книг, мультиков, и другого развлекательного контента на ботлихском`)%>%
+  select(`writing system`, `educational material`, `social events`, `compulsory lessons`, `voluntary courses`, media, `entertaining content`)%>%
+  summarise_all(mean)%>%
+  mutate(across(where(is.numeric), round, 2))
+
+knitr::kable(preserv, caption = "Average score of preservation initatives on a scale of 1--5")
+
+```
+
+In Question 44, respondents were asked to select the initiatives they considered most useful. Least popular were compulsory lessons, followed by the establishment of an official writing system. Most popular were voluntary courses. Media, entertaining content and learning materials were only slightly less popular.
+
+```{r, fig.width=4, fig.height=2, fig.align='center', fig.cap="Question 44. Preservation priorities"}
+
+prio <- survey %>%
+  rename(s44 = `44. Какие из вышеупомянутых вещей вам кажутся наиболее полезными для сохранения ботлихского языка?`)%>%
+  select(s44) %>%
+  separate_rows(s44, sep=",")%>%
+  mutate_if(is.character, trimws)%>%
+  group_by(s44)%>%
+  summarise(score = n())
+
+prios_en <- c("voluntary courses", "compulsory lessons",
+              "writing system", "entertaining content",
+              "media", "educational material")
+
+prio$s44 <- prios_en
+
+ggplot(prio, aes(x=s44, y=score, fill = as.factor(s44))) +
+  geom_bar(stat="identity")+
+  scale_y_continuous(breaks =c(0:10))+
+  scale_fill_manual(values = wes_palette("IsleofDogs1"))+
+  theme_classic()+
+  theme(axis.title.x=element_blank(), 
+        axis.title.y=element_blank(),
+        legend.position="none")+
+  coord_flip()
+
+```
+
+Among the materials, resources and events people would like to see, which are currently unavailable (Question 45), were books, lectures, archive materials, a publicly available dictionary,[^dict] media, cartoons for children, textbooks, theater and celebratory events.
+
+[^dict]: Two academic dictionaries exist for Botlikh, but neither of them is currently on sale or available online.
+
+I also asked who should create educational materials for the language (Question 46). People phrased their answers in different ways, but most suggested a combination of professional linguists or educators and proficient native speakers. Then I asked why they think it is (not) important to preserve the Botlikh language (Question 47). 6/13 mentioned that preservation of the language was necessary for the preservation of Botlikhs as a people / nationality / ethnic group. This is remarkable, since two of these respondents indicated earlier that Botlikhs were Avars, two more considered them a subethnos of Avars, and only 2/6 considered Botlikhs to be a separate ethnos. Three of them consistently self-identified as Avar in Question 5. Other motivations to preserve the language were to preserve history (2), and because it is important to know one's roots (3). One person noted that people should know their own language, and that it is currently in danger of disappearing due to the influence television and internet. Another respondent stated that they were taught to love and protect their village since childhood.
+
+## 3.8 Bonus questions
+The bonus questions at the end of the survey were optional, except the last question asking for the participant's consent to donate 100 rubles to charity fund Insan on their behalf, which two respondents refused. I asked what respondents think of when they think of their native language. Among the answers were: "confidence that I belong to something sacred"; "about my childhood, when everyone spoke Botlikh, even Avars who lived in Botlikh"; I'm proud and I'm glad that there are still people who love Botlikh and the Botlikh language. Last year we lost a true patriot of Botlikh, who dedicated his whole life to questions related to Botlikh on all possible levels. Now there is hope that the language will not be forgotten and that the work in that direction will continue." Others cited pride and warm feelings, but also fear that future generations might forget the language.
+
+I also asked people about their favorite Botlikh word. These included: *q'ʷačara* 'cheese', *babu* 'mom', *č'amč'ada* 'chewing', *bujχadi* 'Botlikhs', *išqa* 'at ours (exclusive)', *χazina* 'jewel, treasure' when used as a term of endearment.[^jewel]
+
+[^jewel]: The word *χazina* 'jewel, treasure' also exists in Avar.
+
+# 4 Conclusion and discussion
+
+Village-based group identity, cf. native terms consisting of the name of the village and a genitive suffix.
+
+# Acknowledgments
+This report was created in Rmarkdown using R [@r] and RStudio [@rstudio]. I used the following packages: tidyverse [@tidyverse], lingtypology [@lingtypology], and wesanderson [@wesanderson]. I would like to thank the speakers of Botlikh who shared their thoughts and opinions with me through their survey answers, comments and messages on Instagram, and during in-person conversations. I would also like to thank Nina Dobrushina and Alina Russkikh for their comments on earlier versions of the survey, Kostya Filatov for sharing lexical data from the DagSwadesh project, and Muhammad Magomedov for discussing a survey question with me and for drawing my attention to the ASJP distance measure and his app for calculating it.
+
+# SYMBOL TEST
+
+
+# References
+
+

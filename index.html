@@ -13,7 +13,7 @@
 
 <title>Introduction</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -155,11 +155,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -188,8 +192,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -197,16 +201,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -379,6 +376,32 @@ class="citation">(RStudio Team 2018)</span>.</p>
 <p><br></p>
 <div id="current-projects" class="section level2">
 <h2>Current projects</h2>
+<div
+id="dagapt-a-database-of-arabic-persian-and-turkic-loans-in-daghestanian-languages"
+class="section level3">
+<h3>DAG&lt;APT: A database of Arabic, Persian and Turkic loans in
+Daghestanian languages</h3>
+<p>Arabic, Persian and Turkic languages1 are prolific borrowing sources
+for Daghestanian languages due to their cultural importance. Arabic is
+the language of religion, and Persian and Turkic were important
+languages for trade and exchange of knowledge. Of course these languages
+have also influenced each other, so a borrowing of an Arabic lexeme into
+a Daghestanian language may have been mediated through Persian and/or a
+local Turkic language like Azerbaijani.</p>
+<p>The aim of the DAG &lt; APT project is twofold: first, it combines
+information from the rich literature on lexical borrowing from Arabic,
+Persian and Turkic into various Daghestanian languages into a single,
+searchable database that can be used for reference; second, it creates a
+base of target lexemes that can be compared in terms of adaptation
+patterns and geographical distribution. This can help to uncover
+different historical and regional layers of borrowing processes, and
+perhaps identify cases of mediated borrowing in a more reliable and
+systematic way.</p>
+<p>Most of the work on the database is done by Timofey Dedov. My tasks
+are more editorial.</p>
+<p>A beta version of the database so far can be found <a
+href="https://lingconlab.github.io/DAG-APT/index.html">here</a>.</p>
+</div>
 <div id="botlikh-documentation" class="section level3">
 <h3>Botlikh documentation</h3>
 <p>Botlikh is a small, unwritten language of the East Caucasian language
@@ -398,25 +421,27 @@ href="https://github.com/sverhees/site/blob/master/other/Animacy_in_Botlikh.pdf"
 We are also in the process of translating and annotating Botlikh texts
 recorded by our predecessors, and plan to add new material to the
 corpus. Aigul Zakirova recorded some new material in 2021, and Sara
-Zadykian is currently glossing texts and editing translations. Some
-general background on the language and our work (along with some
-alluring pictures) is given in <a
+Zadykian and Polina Artemeva recorded new texts in 2022. Some general
+background on the language and our work (along with some alluring
+pictures) is given in <a
 href="https://github.com/sverhees/2019_labseminar_botlikh/blob/master/201910_labseminar_Botlikh(slides).pdf">these
-slides</a>.</p>
+slides</a>. Note that the slides are from 2019 and therefore not
+entirely up-to-date.</p>
 <p>I also manage an <a
 href="https://www.instagram.com/botlikh_rasha/">Instagram</a> account
 about the Botlikh language, and I published some texts from the corpus
-in Botlikh and Russian <a
-href="https://sverhees.github.io/botlikh_khabar/">here</a>.</p>
+<a href="https://sverhees.github.io/botlikh_khabar/">here</a>.</p>
+<p><br></p>
 </div>
+</div>
+<div id="past-projects" class="section level2">
+<h2>Past projects</h2>
 <div id="andi-documentation-zilo-dialect" class="section level3">
 <h3>Andi documentation (Zilo dialect)</h3>
 <p>The Andi language is a neighbor of Botlikh. I am one of several
 people who have worked on various aspects of Andi grammar by studying
-the dialect of the village Zilo since 2016. A grammar sketch is
-currently <span style="color: #CC0066;">in preparation</span>, and we
-are working on transcribing and annotating a corpus of texts that were
-recorded during field trips.</p>
+the dialect of the village Zilo since 2016. A grammar sketch is <span
+style="color: #CC0066;">in preparation</span>.</p>
 </div>
 <div id="variation-in-unwritten-languages" class="section level3">
 <h3>Variation in unwritten languages</h3>
@@ -443,15 +468,11 @@ datasets with information about particular features. Each year, several
 students of the School of Linguistics at HSE University Moscow (as well
 as interns from other universities) collect new datasets for the Atlas
 as part of a workshop. I used to coordinate this workshop together with
-Chiara Naccarato, and was involved in designing the current structure,
-types of visualization, and workflow of the Atlas. <a
+Chiara Naccarato, and was involved in designing the structure and
+workflow of the Atlas. <a
 href="https://lingconlab.github.io/TALD_manual/">Click here</a> if you
 are interested in becoming a contributor of the Atlas.</p>
-<p><br></p>
 </div>
-</div>
-<div id="past-projects" class="section level2">
-<h2>Past projects</h2>
 <div
 id="evidentiality-as-part-of-tense-aspect-in-east-caucasian-languages"
 class="section level3">

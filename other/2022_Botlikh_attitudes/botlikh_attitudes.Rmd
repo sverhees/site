@@ -11,7 +11,7 @@ author: Samira Verhees
 date: Version `r Sys.Date()`
 output:
   pdf_document:
-    toc: true
+    toc: false
     latex_engine: xelatex
 ---
 
@@ -23,16 +23,35 @@ library(wesanderson)
 survey <- read_tsv("attitude.csv")
 ```
 
-\newpage
+# Abstract
+This paper explores the vitality of the Botlikh language and the attitudes of its speakers towards their native language. Botlikh is an unwritten language of the East Caucasian family spoken mainly by several thousand people in three villages in Dagestan -- a multi-ethnic autonomous republic in the North Caucasus region of the Russian Federation. Several factors potentially threaten the language, including urbanization and changing marriage practices and demographics, negative self-identification, and pressure from other languages associated with higher socio-econonomic prestige. In this paper I provide a comprehensive account of the context behind these factors and attempt to assess their impact on the language based on a survey among speakers as well as anecdotal evidence gathered during my trips to the area. I also describe how I conducted linguistic fieldwork remotely while I was unable to travel to Dagestan, first during the COVID-19 pandemic, and again after the 2022 Russian invasion of Ukraine.
+
 
 # 1 Introduction
-Botlikh ([botl1242](https://glottolog.org/resource/languoid/id/botl1242)) is an unwritten language of Dagestan (North Caucasus, Russian Federation). It belongs to the Andic branch of the East Caucasian or Nakh-Daghestanian family. In the last version of UNESCO's Atlas of the World's Languages in Danger [@moseley2010], the language was evaluated as **definitely endangered**, meaning it is no longer passed on to children.[^1]
+
+Botlikh ([botl1242](https://glottolog.org/resource/languoid/id/botl1242)) *bujχaɬi mic'ːi* is an unwritten language spoken in Dagestan (North Caucasus, Russian Federation). It belongs to the Andic branch of the East Caucasian or Nakh-Daghestanian family. The language is spoken mainly in the villages Botlikh (pop. 12,159), Miarso (pop. 1,714) and Ashino (pop. 79) [@azaev2000] [^2]. A fourth village Ankho had a population of 35 according to the latest census, but it is currently uninhabited. Native speakers of Botlikh also live in cities in Dagestan and elsewhere in Russia. The exact number of speakers is difficult to estimate for unwritten Daghestanian languages like Botlikh, because they are not registered as such during census. Authors of dictionaries and grammar sketches, some of whom are native speakers themselves, provide estimates ranging from 3000--8000 (REFS). [@dobrushinaetal2021: 30] propose to use the cumulative population of villages where the language is spoken as an estimate, since traditional villages in Dagestan tend to be ethnically and linguistically homogeneous. For Botlikh they arrived at a total of 7,400 speakers, apparently applying some correction for the fact that the village Botlikh is multi-ethnic.
+
+In the last version of UNESCO's Atlas of the World's Languages in Danger [@moseley2010], the language was evaluated as **definitely endangered**, meaning it is no longer passed on to children.[^1] My personal observations during linguistic field trips to Botlikh and Miarso in 2017, 2019 and 2021 contradict this assessment. I witnessed children speaking Botlikh to their older relatives as well as to their peers. At the same time, some speakers voiced concerns that this was changing. Children now speak Russian at kindergarten, and some families are shifting. 
+
+
+I decided to conduct a survey among speakers of Botlikh in hopes of getting a clearer picture of these dynamics and the general attitude towards the native language. 
+
+
+
+
+
+
+
+
 
 ![Location of Botlikh on the map](figures/botlikh_general.png)
 
 [^1]: This version of the Atlas is now archived. A new version is forthcoming.
 
-My personal observations during visits to Botlikh in 2017--2021 contradict this assessment. I witnessed children speaking Botlikh to their older relatives and to their peers. At the same time, some speakers voiced concerns that this was changing. Children now speak Russian at kindergarten, and some families are allegedly shifting. In order to get a clearer picture of the language's dynamics and the speech community's attitudes, I decided to conduct a survey among speakers of Botlikh. In this report I discuss the results of that survey. [Section 2](#background) introduces some relevant sociolinguistic context about the language. [Section 3](#survey) describes the methodology I used to conduct the survey, followed by a discussion of the answers divided into thematic blocks. These thematic blocks correspond to sections of the survey. In [Section 4](#conclusion-and-discussion) I summarize my findings. The survey questions can be found [here](#questions), answers are available [here](github).
+
+
+
+In this report I discuss the results of that survey. [Section 2](#background) introduces some relevant sociolinguistic context about the language. [Section 3](#survey) describes the methodology I used to conduct the survey, followed by a discussion of the answers divided into thematic blocks. These thematic blocks correspond to sections of the survey. In [Section 4](#conclusion-and-discussion) I summarize my findings. The survey questions can be found [here](#questions), (anonymous) answers are available [here](github).
 
 The survey was conducted in May 2022.
 

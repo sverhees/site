@@ -36,10 +36,14 @@ Updated: `r Sys.Date()`
 
 * Kaye, Steven, Aleksandra Martynova, George Moroz, Neige Rochant, Samira Verhees and Aigul Zakirova. <span style="color: #CC0066;">To appear</span>. 'Andi (Zilo)'. In Yury Koryakov and Timur Maisak (eds.) *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
 
+* Maisak, Timur and Samira Verhees. 2024. 'The ‘Still Not’ Present in Andi: identifying the grammaticalization source'. *Folia Linguistica*, vol. 58, no. s45-s1, 185--220. [DOI](https://doi.org/10.1515/flin-2024-2007)
+
 * Moroz, George and Samira Verhees. 2019. 'Variability in noun classes assignment in Zilo Andi: experimental data'. *Iran and the Caucasus.* Vol. 23(3), 268--282. [DOI](https://doi.org/10.1163/1573384X-20190306)
 
 * Naccarato, Chiara, George Moroz and Samira Verhees. <span style="color: #CC0066;">To appear</span>. 'Godoberi'. In Yury Koryakov and Timur Maisak (eds.) *Handbook of Caucasian Languages. Vol. 2. Nakh-Daghestanian.* Berlin/New York: De Gruyter Mouton.
 
+* Verhees, Samira. 2024. 'Social networks for academics'. *Journal of the Field Linguists Society* 1. [DOI](https://doi.org/10.5281/zenodo.10611237)
+* Verhees, Samira. 2023. 'The role of multilingualism in narratives in Botlikh (Dagestan)'. In Nina Sumbatova, Ivan Kapitonov, Maria Khachaturyan, Sofia Oskolskaya, Samira Verhees (eds.) *Songs and trees: papers in memory of Sasha Vydrina*. St. Petersburg: Institute for Linguistic Studies Russian Academy of Sciences, 425--450. [URL](http://sashavydrina.tilda.ws/inmemoriam)
 * Verhees, Samira. 2021.  'Evidentiality in East Caucasian on the map.' *Languages of the Caucasus* 5. [DOI](https://doi.org/10.5070/L95054646) | [URL](https://escholarship.org/uc/item/1zf7z1ck)
 * Verhees, Samira. 2020. 'Evidentiality in the Rikvani dialect of Andi'. *Iran and the Caucasus.* Vol 24(4), 309-324. [DOI](http://doi.org/10.1163/1573384X-20200305)
 * Verhees, Samira. 2019. 'Defining evidentiality'. *Voprosy jazykoznanija* 2019(6), 113--133. [DOI](https://ras.jes.su/vopjaz/s0373658x0007549-2-1) | [PDF](https://vja.ruslang.ru/ru/archive/2019-6/113-133)

@@ -23,37 +23,47 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br>
 
-I created this site to provide an overview of my research as a linguist specializing in East Caucasian languages, evidentiality and areal typology. 
+This website provides an overview of my research as a linguist specializing in East Caucasian languages, evidentiality and areal typology. It was created with `RMarkdown` in RStudio [@rstudio].
 
-Most of my academic career has been based in Russia, until I [quit my job](https://twitter.com/kajomka/status/1502249930374717443) at HSE University, Moscow in March 2022. After this I decided to switch careers. I continue some of my linguistic work as an independent researcher in my free time.
+<br>
 
-**I condemn Russia's war against Ukraine.**
+## About me
 
-This website was created with `RMarkdown` in RStudio [@rstudio].
+My given name is Samira, but my first name on my passport is Jannigje Helena. This has to do with a silly Dutch custom of giving children multiple Christian names as their official first name, and then calling them something else in daily life. (Read more about this [here](https://dutchreview.com/featured/what-is-a-roepnaam-explained/).) Names for daily use will often be derived from a first name, or at least start with the same letter, but not always.
+
+Contrary to a persistent myth, Samira is not my Caucasiologist pseudonym, but one of the names given to me by my parents. I always go by this name unless I am forced to do otherwise. So please call me Samira and consider Jannigje Helena my tax-form filling alter ego.
+
+Most of my academic career as a linguist has been based in Russia, until I quit my job at HSE University, Moscow in March 2022. When Russia invaded Ukraine in February 2022, I no longer felt safe in Russia, as a foreigner who did not support the invasion. So I left in early March and quit my job a week later, when I found out that the head of the university where I worked signed a letter in support of the invasion.
+
+After leaving Russia I decided to switch careers and started working as a data engineer. I continue some of my linguistic work as an independent researcher in my free time and hope to combine the two disciplines at some point -- documenting language and digitally archiving the material in such a way that it will be durably preserved and becomes more accessible to anyone who might be interested.
 
 <br>
 
 ## Current projects
 
-### DAG<APT: A database of Arabic, Persian and Turkic loans in Daghestanian languages
-Arabic, Persian and Turkic languages1 are prolific borrowing sources for Daghestanian languages due to their cultural importance. Arabic is the language of religion, and Persian and Turkic were important languages for trade and exchange of knowledge. Of course these languages have also influenced each other, so a borrowing of an Arabic lexeme into a Daghestanian language may have been mediated through Persian and/or a local Turkic language like Azerbaijani.
-
-The aim of the DAG < APT project is twofold: first, it combines information from the rich literature on lexical borrowing from Arabic, Persian and Turkic into various Daghestanian languages into a single, searchable database that can be used for reference; second, it creates a base of target lexemes that can be compared in terms of adaptation patterns and geographical distribution. This can help to uncover different historical and regional layers of borrowing processes, and perhaps identify cases of mediated borrowing in a more reliable and systematic way.
-
-Most of the work on the database is done by Timofey Dedov. My tasks are more editorial.
-
-A beta version of the database so far can be found [here](https://lingconlab.github.io/DAG-APT/index.html).
-
 ### Botlikh documentation
-Botlikh is a small, unwritten language of the East Caucasian language family (Andic branch). I started working on this language by chance in 2017, when I was asked to edit and supplement a draft grammar sketch by the renowned Caucasiologist Mikhail Alexeyev. At some point this text will appear as a chapter in a new handbook on Caucasian languages. For now the latest draft version is available [here](https://github.com/sverhees/site/blob/master/papers/botlikhgrammar_draft.pdf).
+Botlikh is a small, unwritten language of the East Caucasian language family (Andic branch). I started working on this language by chance in 2017, when I was asked to edit and supplement a draft grammar sketch by the renowned Caucasiologist Mikhail Alexeyev. At some point this text will appear as a chapter in a new handbook on Caucasian languages. For now a recent draft version is available [here](https://github.com/sverhees/site/blob/master/papers/botlikhgrammar_draft.pdf).
 
-In 2019 I teamed up with Chiara Naccarato to investigate Botlikh's unique agreement system (see our talks on this topic: [1](https://github.com/sverhees/2019sle_ordinals), [2](https://github.com/sverhees/2019_Animacy-origin), [3](https://github.com/sverhees/2021mt_negcop/blob/master/2021mt_negative_copulas.pdf) and a general overview [handout](https://github.com/sverhees/site/blob/master/other/Animacy_in_Botlikh.pdf)). We are also in the process of translating and annotating Botlikh texts recorded by our predecessors, and plan to add new material to the corpus. Aigul Zakirova recorded some new material in 2021, and Sara Zadykian and Polina Artemeva recorded new texts in 2022. Some general background on the language and our work (along with some alluring pictures) is given in [these slides](https://github.com/sverhees/2019_labseminar_botlikh/blob/master/201910_labseminar_Botlikh(slides).pdf). Note that the slides are from 2019 and therefore not entirely up-to-date.
+In 2019 I teamed up with Chiara Naccarato to investigate Botlikh's unique agreement system (see our talks on this topic: [1](https://github.com/sverhees/2019sle_ordinals), [2](https://github.com/sverhees/2019_Animacy-origin), [3](https://github.com/sverhees/2021mt_negcop/blob/master/2021mt_negative_copulas.pdf) and a general overview [handout](https://github.com/sverhees/site/blob/master/other/Animacy_in_Botlikh.pdf)). We are also in the process of translating and annotating Botlikh texts recorded by our predecessors, and plan to add new material to the corpus. Some texts from the collection are published [here](https://sverhees.github.io/botlikh_khabar/). Aigul Zakirova recorded some new material in 2021, and Sara Zadykian and Polina Artemeva recorded new texts in 2022. The latter were swiftly turned into a corpus which is available [here](https://lingconlab.ru/botlikh/).
 
-I also manage an [Instagram](https://www.instagram.com/botlikh_rasha/) account about the Botlikh language, and I published some texts from the corpus [here](https://sverhees.github.io/botlikh_khabar/).
+Some general background on the language and our work (along with some alluring pictures) is given in [these slides](https://github.com/sverhees/2019_labseminar_botlikh/blob/master/201910_labseminar_Botlikh(slides).pdf). Note that the slides are from 2019 and therefore not entirely up-to-date.
+
+I used to manage an [Instagram](https://www.instagram.com/botlikh_rasha/) account about the Botlikh language. It is still up, but I do not post regularly anymore. A telegram account with the same name is also available, but not regularly updated either.
 
 <br>
 
 ## Past projects
+
+### Database of Arabic, Persian and Turkic loans in Daghestanian languages
+The aim of the DAG<APT project was to create a single searchable database from the rich literature on lexical borrowing from Arabic, Persian and Turkic into various Daghestanian languages. This could then be used simply for reference, but also to get an overview of the spread and adaptation of borrowings from these languages in Daghestan. 
+
+Arabic, Persian and Turkic are prolific borrowing sources for Daghestanian languages due to their cultural importance. Arabic is the language of religion, and Persian and Turkic were important languages for trade and exchange of knowledge. Of course these languages have also influenced each other, so a borrowing of an Arabic lexeme into a Daghestanian language may have been mediated through Persian and/or a local Turkic language like Azerbaijani.
+
+A comprehensive database of such borrowings can help identify different historical and regional layers of borrowing processes, and perhaps identify cases of mediated borrowing in a more reliable and systematic way.
+
+The database is available [here](https://lingconlab.github.io/DAG-APT/).
+As mentioned on the page, I took the first step in setting up the database (inspired by Timur Maisak), but Timofei Dedov and Timofei Balahanov turned it into an actual resource, and George Moroz wrote the necessary script to extract data from the available literature.
+
 
 ### Andi documentation (Zilo dialect)
 The Andi language is a neighbor of Botlikh. I am one of several people who have worked on various aspects of Andi grammar by studying the dialect of the village Zilo since 2016. A grammar sketch is <span style="color: #CC0066;">in preparation</span>.
@@ -71,14 +81,6 @@ My PhD project dealt with the grammaticalization and areal distribution of evide
 
 ### Loanwords in Dagestan
 The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates how patterns of multilingualism in Dagestan are reflected in lexical borrowings at the village level. I worked on this project with Michael Daniel, Ilya Chechuro and Nina Dobrushina from 2017--2019, collecting and annotating lexical data. The results are a [database](https://lingconlab.github.io/Dagloan_database/DL_database.html), several talks and posters, and two papers.
-
-<br>
-
-## About my name
-
-My given name is Samira, but my first name on my passport is Jannigje Helena. This has to do with a silly Dutch custom of giving children multiple Christian names as their official first name, and then calling them something else in daily life. (Read more about this [here](https://dutchreview.com/featured/what-is-a-roepnaam-explained/).) Names for daily use will often be derived from a first name, or at least start with the same letter, but not always.
-
-Contrary to a persistent myth, Samira is not my Caucasiologist pseudonym, but one of the names given to me by my parents. I always go by this name unless I am forced to do otherwise. So please call me Samira and consider Jannigje Helena my tax-form filling alter ego.
 
 <br>
 

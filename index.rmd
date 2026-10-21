@@ -88,5 +88,6 @@ The [Daghestanian Loans](https://ilcl.hse.ru/en/projects) project investigates h
 
 <br>
 <a rel="me" href="https://toot.community/@smrms"></a>
+<a rel="me" href="https://mastodon.nl/@smrms"></a>
 
 ## References
